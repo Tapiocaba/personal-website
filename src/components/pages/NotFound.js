@@ -1,7 +1,12 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
+import { useEffect } from 'react'
 
 export default function NotFound() {
+    useEffect(() => {
+        document.title = "not found :(";
+    }, []);
+
   return (
     <div>
         <h1>oops! you're lost :( </h1>

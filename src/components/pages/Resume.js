@@ -1,6 +1,11 @@
 import React from 'react'
+import { useEffect } from 'react'
 
 function Resume() {
+  useEffect(() => {
+    document.title = "resume";
+}, []);
+
   return (
     <div class="normalPage">
         <h1>resume</h1>
@@ -10,6 +15,7 @@ function Resume() {
         <a class="clickable" href="https://www.resume.lol/" target="_blank" rel="noreferrer">
             resume.lol
         </a>
+        ; updated 3/30/2023
         </p>
 
 

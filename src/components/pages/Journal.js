@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 function Journal() {
 
     useEffect(() => {
-        document.title = "tapi's cove!";
+        document.title = "journal";
     }, []);
 
     const filterTwoThree = data.log.filter((item) => item.year === 2023)
