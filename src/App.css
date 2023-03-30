@@ -1,0 +1,85 @@
+:root {
+  --background: #FFEEE2;
+  --pink-normal: #D56E61; 
+  --pink-hover: #efc7c2;
+  --green-hover: #bfd3c1;
+  --green-normal: #8CB190;
+  --text-color: #4c4852;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: var(--background);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+  font-family: 'IBM Plex Mono';
+  font-weight: 400;
+  -ms-overflow-style: scroll;
+}
+
+a,
+a:visited,
+a:active, p.clickable {
+  text-decoration: none;
+  color: var(--green-normal);
+}
+
+a:hover{
+  color: var(--green-hover);
+  cursor: pointer;
+}
+
+a.clickable {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a.import {
+  color: var(--pink-normal);
+}
+a.import:hover {
+  color: var(--pink-hover);
+}
+
+#outer {
+  /*border:1px solid black;*/
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  min-height: calc(50vh/3);
+  flex-basis: calc(100%/3);
+  align-items: center;
+}
+
+#nav-bar {
+  border-color: black;
+  color: var(--pink-normal);
+  text-align: right;
+  padding-top: 20%;
+  padding-left: 30%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  font-size: 18px;
+}
+
+#content {
+  border-color: red;
+  margin-left: 40%; /* set margin so content doesn't overlap with navigation bar */
+  padding-top: 80px; /* add padding to the content */
+  padding-right: 30%;
+  font-size: 16px;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: 6px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: lightgray; /* Set the color of the scrollbar */
+}
