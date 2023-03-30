@@ -1,4 +1,4 @@
-# lisa's personal website!
+# lisa's personal website challenge!
 
 1-day personal website
 
