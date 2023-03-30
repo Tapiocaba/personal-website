@@ -1,9 +1,8 @@
-# lisa's personal website challenge!
+# lisa's personal website!
 
-1-day personal website
+1-day personal website challenge
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 
 ### `npm start`
 
