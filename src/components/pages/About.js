@@ -51,7 +51,7 @@ function About() {
 
             working as a product management intern, increasing access to mentorship with {" "}
 
-            <a class="import" href="https://bobatalks.com/"> BobaTalks</a>
+            <a class="import" href="https://bobatalks.com/" target="_blank" rel="noreferrer"> BobaTalks</a>
             .
             <br/>
             <br/>
