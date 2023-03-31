@@ -20,7 +20,7 @@ function Resume() {
 
 
         <iframe
-            src="https://drive.google.com/file/d/1LYvPasZEEuuLnKr7vFgf5bxZdnOXIzGw/preview"
+            src="https://drive.google.com/file/d/1M1GtAKegZb9xU4U2MOkmCd824ibDkrG4/preview"
             width="640"
             height="825"
             allow="autoplay"
