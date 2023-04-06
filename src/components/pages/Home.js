@@ -51,7 +51,7 @@ function Home() {
     const [currentInterest, handleInterestClick] = useWordCycle(interest);
 
   return (
-    <div class="normalPage">
+    <div class="homePage">
             <h1>welcome to tapi's cove!</h1>
             <br/>
             <p>

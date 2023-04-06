@@ -2,21 +2,17 @@
     color: #FFCDB2 !important;
 }
 
-.fadeIn-enter {
-    opacity: 0;
-
+.social-icons {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  
+.social-icons > * {
+   margin-right: 10px;
 }
 
-.fadeIn-enter-active {
-    opacity: 1;
-    transition: opacity 1000ms ease-in-out;
-}
-
-.fadeIn-exit {
-    opacity: 0;
-}
-
-.fadeIn-exit-active {
-    opacity: 0;
-    transition: opacity 1000ms ease-in-out;
+.icon {
+  font-size: 1.4em;
 }

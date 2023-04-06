@@ -75,6 +75,10 @@ a.import:hover {
   font-size: 16px;
 }
 
+.homePage {
+  margin-top: 20%;
+}
+
 /*scrollbar*/
 ::-webkit-scrollbar {
   width: 6px; /* Set the width of the scrollbar */
