@@ -11,7 +11,7 @@ import NavBar from './components/NavBar';
 import TagManager from 'react-gtm-module';
 
 const tagManagerArgs = {
-  gtmId: 'GTM-5NF9KLN'
+  gtmId: 'G-T5DRGNV624'
 }
 TagManager.initialize(tagManagerArgs)
 
