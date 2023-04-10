@@ -3,7 +3,7 @@ import "./NavBar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-function NavBar({ id }) {
+function NavBar() {
     const handleGithubClick = () => {
         window.open('https://github.com/tapiocaba', '_blank');
       };
@@ -13,18 +13,13 @@ function NavBar({ id }) {
       };
 
     return (
-        <div id={id}>
-            <nav className="navbar">
-                <NavLink className="nav-item" to="/">home</NavLink>
-                {id === "navbar-side" && <br />}
-                <NavLink className="nav-item" to="/about">about</NavLink>
-                {id === "navbar-side" && <br />}
-                <NavLink className="nav-item" to="/projects">projects</NavLink>
-                {id === "navbar-side" && <br />}
-                <NavLink className="nav-item" to="/journal">journal</NavLink>
-                {id === "navbar-side" && <br />}
-                <NavLink className="nav-item" to="/resume">resume</NavLink>
-                {id === "navbar-side" && <br />}
+        <div>
+            <nav>
+                <NavLink to="/">home</NavLink> <br />
+                <NavLink to="/about">about</NavLink> <br />
+                <NavLink to="/projects">projects</NavLink> <br />
+                <NavLink to="/journal">journal</NavLink> <br />
+                <NavLink to="/resume">resume</NavLink> <br />
             </nav>
             
             <div className="social-icons">

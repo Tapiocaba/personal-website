@@ -55,20 +55,24 @@ a.import:hover {
   align-items: center;
 }
 
-#inner {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-}
-#content {
-  padding-left: 40%; 
-  padding-top: 80px;
-  font-size: 16px;
-  margin-right: 20%;
+#nav-bar {
+  border-color: black;
+  color: var(--pink-normal);
+  text-align: right;
+  padding-top: 20%;
+  padding-left: 30%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  font-size: 18px;
 }
 
-#nav-bar {
-  padding-right: 10px;
+#content {
+  border-color: red;
+  margin-left: 40%; /* set margin so content doesn't overlap with navigation bar */
+  padding-top: 80px; /* add padding to the content */
+  padding-right: 30%;
+  font-size: 16px;
 }
 
 .homePage {
