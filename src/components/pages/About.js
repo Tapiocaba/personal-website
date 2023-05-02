@@ -26,8 +26,7 @@ function About() {
         </p>
 
         <p>
-            while i'm still trying to figure things out, i'm trying new things at every opportunity and pushing myself out of my comfort zone. 
-            i'd thanks for joining me on my journey, and i can't wait to see myself in the future, wherever it may take me!
+            while i'm still trying to figure things out, i'm trying new things at every opportunity and pushing myself out of my comfort zone. i can't wait to see myself in the future, wherever it may take me!
         </p>
 
         <p>
@@ -72,10 +71,19 @@ function About() {
         <p>
             <ul>
                 <li>
-                    <strike>became an admissions officer </strike>make youtube videos for harvard (
-                       <a href="https://www.youtube.com/watch?v=ckB02ExJeFI" class="clickable" target="_blank" rel="noreferrer"> 
-                          here's one of em, more to come
-                        </a> )
+                    <strike>became an admissions officer </strike>make youtube videos for harvard 
+                       <ul>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=ckB02ExJeFI" class="clickable" target="_blank" rel="noreferrer"> 
+                                harvard students react to r/a2c
+                                </a> 
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=67XjW6rmths" class="clickable" target="_blank" rel="noreferrer"> 
+                                WECode 2023 vlog
+                                </a> 
+                            </li>
+                        </ul>
                 </li>
                 <li>
                     <strike>stole free merch</strike> help run the largest student-run women in tech conference (

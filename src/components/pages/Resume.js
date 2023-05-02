@@ -15,12 +15,12 @@ function Resume() {
         <a class="clickable" href="https://www.resume.lol/" target="_blank" rel="noreferrer">
             resume.lol
         </a>
-        ; updated 3/30/2023
+        ; updated 5/2/2023
         </p>
 
 
         <iframe
-            src="https://drive.google.com/file/d/1M1GtAKegZb9xU4U2MOkmCd824ibDkrG4/preview"
+            src="https://drive.google.com/file/d/1BN0-PnI_FS9MN9pdkM7m_IxRfuOXOHk7/preview"
             width="640"
             height="825"
             allow="autoplay"
