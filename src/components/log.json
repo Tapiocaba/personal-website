@@ -2,6 +2,17 @@
     "log": [
         {
             "year": 2023,
+            "month": "May",
+            "items" : [
+                "finished freshman year",
+                "passed cs124 (thank god)",
+                "ate omakase for the first time",
+                "had ichiran ramen",
+                "started internship at axle!"
+            ]
+        },
+        {
+            "year": 2023,
             "month": "Apr",
             "items": [
                 "joined a musical (asian-latinx potentially gay footloose)",

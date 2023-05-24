@@ -22,7 +22,7 @@ function About() {
         <p>
             personally, i'm someone intersted in 100 different things at once, but i've been consistently invested in tech, art, 
             long walks around cities, aquariums, all things food, hanging out with friends, and so so much more! you can find me trying new
-            restaurants on a minimum wage salary,  playing with apis in the physics building, and 4am revenge-bedtime-procrastinating my way through life.
+            restaurants on a minimum wage salary, playing with apis in the physics building, and 4am revenge-bedtime-procrastinating my way through life.
         </p>
 
         <p>

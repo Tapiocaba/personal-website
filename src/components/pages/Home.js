@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 const study = [
@@ -10,21 +9,24 @@ const study = [
 ]
 
 const interest = [
-    "changing my secondary (minor) 🤔",
+    "changing my secondary 🤔",
     "reading supreme court cases 📚",
     "making spotify playlists at every minor inconvenience 🎶",
     "critiquing restaurants 🍣",
     "asking my boss questions about my love life 🤔",
-    "probably still psetting (adam please) 😔",
+    "listening to taylor swift 🎶 ",
     "accidentally stalemating another game of chess♟️",
     "watching spy x family 📺",
-    "simping over yelan in genshin 🎮",
+    "simping over yelan 🎮",
     "failing to fine tune gpt3 (two hours gone from my life) 🤖",
-    "wondering why react is giving me a 'useRef' error when i wrote 'Route' 🥲",
+    "about to physicaly fight the harvard economics department 🥊",
+    "realizing i should've written this website in TS 🤦‍♀️",
     "psychoanalyzing my friends' mbtis 🧠",
-    "looking up questionable pinterest art for my pathfinder character 🐺",
-    "almost finishing a pull up at the gym 🏋️‍♀️",
+    "looking up questionable pinterest art for my dnd characters 🐺",
+    "almost doing a pull up at the gym 🏋️‍♀️",
     "reading ali hazelwood books 🥰",
+    "adding more extensions into vscode 🧑‍💻",
+    "daydreaming about booktok romance scenarios 📚"
 ]
 
 function useWordCycle(words) {
@@ -67,7 +69,7 @@ function Home() {
             <br/>
             <br/>
 
-            when i'm not dying over cs124 psets, i'm learning about diversity and education in tech, beating up friends in pokemon showdown, and {" "}
+            when i'm not dyeing my hair a new pastel color, i'm learning about diversity and education in tech, beating up friends in pokemon showdown, and {" "}
 
             <a class="clickable" id="interest" onClick={handleInterestClick}>
                 {currentInterest}
