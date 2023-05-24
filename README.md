@@ -1,6 +1,6 @@
 # My personal website!
 
-1-day personal website built with React to procrastinate :) Will probably try lots of new experiements on the site!
+1-day personal website built with React to procrastinate :) *If you're my manager and watching me update my personal website instead of responding to pr #932 on linear please let me cook <3*
 
 Inspired by [quinn ha](https://www.quinnha.xyz/), [chengsu chen](https://www.chengsuchen.com/), and everyone's websites that I stalked :)
 
