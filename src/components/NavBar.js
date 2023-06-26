@@ -69,11 +69,11 @@ const NavBar = () => {
             <List component="nav">
                 {links.map((item, index) => (
                     <RouterLink to={item.path} key={index} style={{ textDecoration: 'none' }} onClick={handleLinkClick}>
-                        <ListItem sx={{ '&&': { justifyContent: 'flex-start', padding: '5px' } }}>
+                    <ListItem sx={{ '&&': { justifyContent: isMobile ? 'flex-start' : 'flex-end', padding: isMobile ? '5px 5px 5px 15px' : '5px' } }}>
                             <ListItemText
                                 primary={item.title}
                                 sx={{
-                                    textAlign: 'left',
+                                    textAlign: isMobile ? 'left' : 'right', 
                                     color: location.pathname === item.path ? '#efc7c2' : '#8CB190',
                                     '&:hover': {
                                         color: '#bfd3c1',
