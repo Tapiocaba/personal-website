@@ -11,7 +11,7 @@ function Resume() {
 
   return (
     <Box className="normalPage" sx={{ margin: '1em' }}>
-      <PageTitle>Resume</PageTitle>
+      <PageTitle>resume</PageTitle>
       <Text> making college students look cooler since 2004 -(๑☆‿ ☆#)ᕗ </Text>
       <SmallBreak />
       <Text>

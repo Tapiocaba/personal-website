@@ -14,6 +14,7 @@ import Grid from '@mui/material/Grid';
 import NavBar from './components/NavBar';
 
 import TagManager from 'react-gtm-module';
+import { Analytics } from '@vercel/analytics/react';
 
 const tagManagerArgs = {
   gtmId: 'GTM-5NF9KLN'
@@ -77,6 +78,7 @@ function App() {
   
     return (
     <ThemeProvider theme={theme}>
+      <Analytics />
       <CssBaseline />
       <Grid container style = {{
           marginTop: '10%', 

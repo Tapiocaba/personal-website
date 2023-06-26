@@ -7,12 +7,12 @@ import { PageTitle, Text, GreenLink, SmallBreak } from '../components/PageStyles
 
 function Projects() {
     useEffect(() => {
-        document.title = "Projects";
+        document.title = "projects";
       }, []);
   
     return (
         <Box className="normalPage" sx={{ margin: '1em' }}>
-            <PageTitle>Projects</PageTitle>
+            <PageTitle>projects</PageTitle>
             <Text>
                 full projects section coming soon, pls let me cook ┬──┬ ¯\_(ツ)
             </Text>

@@ -16,7 +16,7 @@ function Journal() {
     const filterTwoTwo = data.log.filter((item) => item.year === 2022)
     return (
         <Box className="normalPage" sx={{ margin: '1em' }}> 
-            <PageTitle id="journal-heading">Journal</PageTitle>
+            <PageTitle id="journal-heading">journal</PageTitle>
 
             <Text>Random life milestones and adventures ღゝ◡╹ )ノ♡</Text>
             <Text>ₓ˚. ୭ ˚○◦˚.˚◦○˚ ୧ .˚ₓ</Text>
