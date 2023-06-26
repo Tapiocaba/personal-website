@@ -1,18 +1,19 @@
 import React from 'react';
 
+import { Box, Typography } from '@mui/material';
+import { Text } from './PageStyles';
+
 function MonthList({ month, items = []}) {
     return(
-        <div class="month-list">
-            <p>
-                <b>{month}</b> <br/>
-                <ul>
-                    {items.map((item, index) => (
-                        <li key={index}>{item}</li>
-                    ))}
-                </ul>
-            </p>
-        </div>
-    );
+        <Box className="monthList" sx={{ margin: '1em' }}>
+                <Typography sx = {{ fontWeight: 'bold', fontSize: '1em' }}> {month} </Typography>
+            <ul>
+                {items.map((item, index) => (
+                    <li key={index}> <Text> {item} </Text></li>
+                ))}
+            </ul>
+        </Box>
+        );
 }
 
 export default MonthList;
