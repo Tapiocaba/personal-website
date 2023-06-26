@@ -18,7 +18,7 @@ export const Text = ({ isListItem, children, ...props }) => {
         {children}
       </Typography>
     );
-  };  
+};
 
 export const LargeBreak = (props) => {
     return (
@@ -85,7 +85,8 @@ export const PageList = ({ items }) => {
       </ul>
     );
   };
-  
+
+// Links
 export const RedLink = ({ href, children }) => (
     <Link 
       href={href} 
@@ -97,4 +98,16 @@ export const RedLink = ({ href, children }) => (
       {children}
     </Link>
   );
-  
+
+  export const GreenLink = ({ href, children, ...props }) => (
+    <Link 
+      href={href} 
+      target="_blank" 
+      rel="noreferrer" 
+      underline="always"
+      sx={{ color: '#8CB190', fontWeight: 'bold', '&:hover': {color: '#bfd3c1'} }}
+      {...props}
+    >
+      {children}
+    </Link>
+);

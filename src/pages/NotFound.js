@@ -1,6 +1,10 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
 import { useEffect } from 'react'
+import { NavLink } from "react-router-dom";
+
+import { Box } from '@mui/material';
+
+import { PageTitle, Text } from '../components/PageStyles';
 
 export default function NotFound() {
     useEffect(() => {
@@ -8,18 +12,14 @@ export default function NotFound() {
     }, []);
 
   return (
-    <div>
-        <h1>oops! you're lost :( </h1>
-        
-        <p style={{ textDecoration: 'none' }}>
-            let's get you back {" "}
-            <NavLink to="/" class="clickable">
-                <u>
-                    <b> home</b>
-                </u>
-            </NavLink>!
-        </p>
-    </div>
-    
+    <Box className="normalPage" sx={{ margin: '1em' }}>
+        <PageTitle> oops! you're lost :( </PageTitle>
+        <Text> Let's get you back {''}
+        <NavLink to="/" class="clickable">
+            home
+        </NavLink>
+        !
+        </Text>
+    </Box>
     )
 }

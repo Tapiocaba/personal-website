@@ -1,15 +1,16 @@
 import { Routes, Route } from 'react-router-dom';
 
-import { CssBaseline } from '@mui/material';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import Grid from '@mui/material/Grid';
-
 import Home from './pages/Home';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Journal from './pages/Journal';
 import NotFound from './pages/NotFound';
+
+import { CssBaseline } from '@mui/material';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Grid from '@mui/material/Grid';
+
 import NavBar from './components/NavBar';
 
 import TagManager from 'react-gtm-module';
@@ -73,33 +74,33 @@ function App() {
   window.dataLayer.push({
     event: 'pageview'
   });
-
-  return (
-  <ThemeProvider theme={theme}>
-    <CssBaseline />
-    <Grid container style = {{
-        marginTop: '10%', 
-        }}>
-      <Grid item xs={12} sm={3} style={{
-        position: 'fixed', 
-        marginLeft: '27%', 
-        }}>
-        <NavBar />
+  
+    return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Grid container style = {{
+          marginTop: '10%', 
+          }}>
+        <Grid item xs={12} sm={3} style={{
+          position: 'fixed', 
+          marginLeft: '27%', 
+          }}>
+          <NavBar />
+        </Grid>
+        <Grid item xs={12} sm={9} style={{marginLeft: '35%', marginRight: '25%'}}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/journal" element={<Journal />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Grid>
       </Grid>
-      <Grid item xs={12} sm={9} style={{marginLeft: '35%', marginRight: '25%'}}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/journal" element={<Journal />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Grid>
-    </Grid>
-  </ThemeProvider>
-
-  );
+    </ThemeProvider>
+  
+    );
 }
 
 export default App;

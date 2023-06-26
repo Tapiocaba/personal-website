@@ -1,69 +1,75 @@
-import React from 'react'
-import { useEffect } from 'react'
-import { NavLink } from "react-router-dom"
+import React, { useEffect } from 'react';
+import { NavLink } from "react-router-dom";
+
+import { Box } from '@mui/system';
+
+import { PageTitle, Text, GreenLink, SmallBreak } from '../components/PageStyles';
 
 function Projects() {
     useEffect(() => {
-        document.title = "projects";
+        document.title = "Projects";
       }, []);
   
     return (
-        <div class="normalPage">
-            <h1>projects</h1>
-            <p>
+        <Box className="normalPage" sx={{ margin: '1em' }}>
+            <PageTitle>Projects</PageTitle>
+            <Text>
                 full projects section coming soon, pls let me cook ┬──┬ ¯\_(ツ)
-            </p>
-            <p>for now, feel free to look at my{" "}
-                <a href="https://github.com/Tapiocaba" class="clickable" target="_blank" rel="noreferrer">
-                    github
-                </a>!
-            </p>
+            </Text>
+            <Text>
+                for now, feel free to look at my{" "}
+                <GreenLink href="https://github.com/Tapiocaba" target="_blank" rel="noreferrer">
+                    GitHub
+                </GreenLink>!
+            </Text>
 
-            <p>.・。.・゜✭・.・✫・゜・。.</p>
-            <p>
-                <NavLink to="/" class="clickable">
-                    <u>
-                        <b> personal website </b>
-                    </u>
-                </NavLink>
+            <Text>.・。.・゜✭・.・✫・゜・。.</Text>
+            
+            <Text>
+                <GreenLink to="/" component={NavLink} underline="always">
+                    Personal Website
+                </GreenLink>
                 <br/>
                 dis thing
-            </p>
-
-            <p>
-                <a
-                    href="https://github.com/Tapiocaba/graph-theory-pokemon" class="clickable" target="_blank" rel="noreferrer">
-                    <b>pokèmon graph theory</b>
-                </a>
+            </Text>
+            <SmallBreak />
+            <Text>
+                <GreenLink
+                    href="https://github.com/Tapiocaba/graph-theory-pokemon" target="_blank" rel="noreferrer">
+                    Pokémon Graph Theory
+                </GreenLink>
                 <br/>
-                this isn't coding but i'm proud of it. makes me look 110x better at math than i actually am.
-            </p>
-            <p>
-                <a
-                    href="https://github.com/Tapiocaba/Blackjack50" class="clickable" target="_blank" rel="noreferrer">
-                    <b>blackjack50</b>
-                </a>
+                this isn't coding but I'm proud of it. Makes me look 110x better at math than I actually am.
+            </Text>
+            <SmallBreak />
+            <Text>
+                <GreenLink
+                    href="https://github.com/Tapiocaba/Blackjack50" target="_blank" rel="noreferrer">
+                    Blackjack50
+                </GreenLink>
                 <br/>
-                cs50 final project. college-friendly gambling!
-            </p>
-            <p>
-                <a
-                    href="https://github.com/Tapiocaba/PlanTic-Pomodoro-Timer---KWK-Final-Project" class="clickable" target="_blank" rel="noreferrer">
-                    <b>plantic pomodoro timer</b>
-                </a>
+                CS50 final project. College-friendly gambling!
+            </Text>
+            <SmallBreak />
+            <Text>
+                <GreenLink
+                    href="https://github.com/Tapiocaba/PlanTic-Pomodoro-Timer---KWK-Final-Project" target="_blank" rel="noreferrer">
+                    PlanTic Pomodoro Timer
+                </GreenLink>
                 <br/>
-                kode with klossy 2021 final project. tic, cuz it ticks like a clock.
-            </p>
-            <p>
-                <a
-                    href="https://github.com/racheltgunawan/Divercity---KWK-group-project
-                    " class="clickable" target="_blank" rel="noreferrer">
-                    <b>divercity iOS app</b>
-                </a>
+                Kode with Klossy 2021 final project. Tic, cuz it ticks like a clock.
+            </Text>
+            <SmallBreak />
+            <Text>
+                <GreenLink
+                    href="https://github.com/racheltgunawan/Divercity---KWK-group-project" target="_blank" rel="noreferrer">
+                    Divercity iOS App
+                </GreenLink>
                 <br/>
-                kode with klossy 2020 final project. built with swift, now i don't use a mac.
-            </p>
-        </div>
+                Kode with Klossy 2020 final project. Built with Swift, now I don't use a Mac.
+            </Text>
+            
+        </Box>
     )
 }
 

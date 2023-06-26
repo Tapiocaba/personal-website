@@ -1,8 +1,10 @@
-import React from 'react'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react';
 
-import MonthList from '../components/MonthList'
-import data from '../components/log.json'
+import { Box } from '@mui/system';
+
+import MonthList from '../components/MonthList';
+import data from '../components/log.json';
+import { PageTitle, Text, LargeBreak } from '../components/PageStyles';
 
 function Journal() {
 
@@ -13,23 +15,25 @@ function Journal() {
     const filterTwoThree = data.log.filter((item) => item.year === 2023)
     const filterTwoTwo = data.log.filter((item) => item.year === 2022)
     return (
-        <div class="normalPage">
-            <h1 id="journal-heading">journal</h1>
+        <Box className="normalPage" sx={{ margin: '1em' }}> 
+            <PageTitle id="journal-heading">Journal</PageTitle>
 
-            <p>random life milestones and adventures ღゝ◡╹ )ノ♡</p>
-            <p>ₓ˚. ୭ ˚○◦˚.˚◦○˚ ୧ .˚ₓ</p>
+            <Text>Random life milestones and adventures ღゝ◡╹ )ノ♡</Text>
+            <Text>ₓ˚. ୭ ˚○◦˚.˚◦○˚ ୧ .˚ₓ</Text>
+            <LargeBreak />
 
-            <h2><b>2023</b></h2>
+            <Text as="h2" sx={{ fontWeight: 'bold' }}>2023</Text>
             {filterTwoThree.map((item) => (
                 <MonthList key={item.id} month={item.month} items={item.items} year={item.year} />
             ))}
 
-            <h2><b>2022</b></h2>
+            <LargeBreak />
+
+            <Text as="h2" sx={{ fontWeight: 'bold' }}>2022</Text>
             {filterTwoTwo.map((item) => (
                 <MonthList key={item.id} month={item.month} items={item.items} year={item.year} />
             ))}
-            
-        </div>
+        </Box>
     );
 }
 

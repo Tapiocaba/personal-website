@@ -24,7 +24,7 @@ function About() {
 
       <Text>ₓ˚. ୭ ˚○◦˚.˚◦○˚ ୧ .˚ₓ</Text>
 
-      <Text> hi hi! welcome to my about page, featuring the only good picture of me for the past 13 months :p </Text>
+      <Text> hi hi! welcome to my about page, featuring the only good picture of me in the past year or two months :p </Text>
       <SmallBreak />
       <Text>
         personally, i'm someone interested in 100 different things at once, but i've consistently loved in tech, art,
@@ -56,7 +56,6 @@ function About() {
 
       <Text><b>at uni, i</b></Text>
       <PageList items={uniItems} />
-
       <Text><b>previously, i've</b></Text>
       <PageList items={prevItems} />
 

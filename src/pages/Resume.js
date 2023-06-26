@@ -1,40 +1,41 @@
-import React from 'react'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react';
+
+import { Box } from '@mui/material';
+
+import { PageTitle, Text, GreenLink, SmallBreak } from '../components/PageStyles';
 
 function Resume() {
   useEffect(() => {
     document.title = "resume";
-}, []);
+  }, []);
 
   return (
-    <div class="normalPage">
-        <h1>resume</h1>
-        <p> resumes: making college students look cooler since 2004 -(๑☆‿ ☆#)ᕗ </p>
-        <p>made with&nbsp;
+    <Box className="normalPage" sx={{ margin: '1em' }}>
+      <PageTitle>Resume</PageTitle>
+      <Text> making college students look cooler since 2004 -(๑☆‿ ☆#)ᕗ </Text>
+      <SmallBreak />
+      <Text>
+        made with&nbsp;
+        <GreenLink href="https://www.resume.lol/" target="_blank" rel="noreferrer">
+          resume.lol
+        </GreenLink>
+        ; updated 6/25/2023
+      </Text>
 
-        <a class="clickable" href="https://www.resume.lol/" target="_blank" rel="noreferrer">
-            resume.lol
-        </a>
-        ; updated 5/2/2023
-        </p>
+      <iframe
+        src="https://drive.google.com/file/d/1K4YCKW12fgVq-70G-ndy-eFg20cR6WQG/preview"
+        width="640"
+        height="825"
+        allow="autoplay"
+        title="resume"
+        style={{border: 'none', margin: '1em 0'}}
+      ></iframe>
 
-
-        <iframe
-            src="https://drive.google.com/file/d/1BN0-PnI_FS9MN9pdkM7m_IxRfuOXOHk7/preview"
-            width="640"
-            height="825"
-            allow="autoplay"
-            title="resume"
-        ></iframe>
-        
-        <br/>
-        <a href="/lisa_lin_resume.pdf"
-        download="lisa_lin_resume.pdf"
-        class="clickable"
-        > download </a>
-
-    </div>
+      <GreenLink href="/lisa_lin_resume.pdf" download="lisa_lin_resume.pdf">
+        Download
+      </GreenLink>
+    </Box>
   );
 }
 
-export default Resume
+export default Resume;

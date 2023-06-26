@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
-
-import { List, ListItem, ListItemText, IconButton, Box } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
+import { List, ListItem, ListItemText, IconButton, Box, useMediaQuery, Drawer } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const NavBar = () => {
+
+    const [drawerOpen, setDrawerOpen] = useState(false);
 
     const links = [
         { 
@@ -32,6 +35,8 @@ const NavBar = () => {
     ];
 
     const location = useLocation();
+    const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
     const handleGithubClick = () => {
         window.open('https://github.com/tapiocaba', '_blank');
@@ -41,24 +46,34 @@ const NavBar = () => {
         window.open('https://www.linkedin.com/in/lisazzlin', '_blank');
     };
 
-    return (
+    const handleLinkClick = () => {
+        if(isMobile) {
+            setDrawerOpen(false);
+        }
+    };
+
+    const menuList = (
         <Box
             sx={{
                 '&&': {
                     color: '#D56E61',
                     paddingTop: '10%',
                     fontSize: '16px',
+                    backgroundColor: '#FFEEE2',
+                    height: 'auto', 
+                    maxHeight: '60vh',
+                    overflow: 'auto'
                 }
             }}
         >
             <List component="nav">
                 {links.map((item, index) => (
-                    <RouterLink to={item.path} key={index} style={{ textDecoration: 'none' }}>
-                        <ListItem sx={{ '&&': { justifyContent: 'flex-end', padding: '5px' } }}>
+                    <RouterLink to={item.path} key={index} style={{ textDecoration: 'none' }} onClick={handleLinkClick}>
+                        <ListItem sx={{ '&&': { justifyContent: 'flex-start', padding: '5px' } }}>
                             <ListItemText
                                 primary={item.title}
                                 sx={{
-                                    textAlign: 'right',
+                                    textAlign: 'left',
                                     color: location.pathname === item.path ? '#efc7c2' : '#8CB190',
                                     '&:hover': {
                                         color: '#bfd3c1',
@@ -72,9 +87,8 @@ const NavBar = () => {
                 <Box
                     sx={{
                         display: 'flex',
-                        justifyContent: 'space-between',
+                        justifyContent: 'flex-start',
                         alignItems: 'center',
-                        marginTop: '1rem',
                     }}
                 >
                     <IconButton sx={{ color: '#D56E61', '&:hover': { color: '#bfd3c1', cursor: 'pointer' }}} onClick={handleGithubClick}>
@@ -86,6 +100,19 @@ const NavBar = () => {
                 </Box>
             </List>
         </Box>
+    )
+
+    return isMobile ? (
+        <Box>
+            <IconButton onClick={() => setDrawerOpen(true)} style={{ color: '#bfd3c1' }}>
+                <MenuIcon />
+            </IconButton>
+            <Drawer anchor='top' open={drawerOpen} onClose={() => setDrawerOpen(false)}>
+                {menuList}
+            </Drawer>
+        </Box>
+    ) : (
+        menuList
     )
 }
 
