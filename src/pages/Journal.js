@@ -1,8 +1,8 @@
 import React from 'react'
+import { useEffect } from 'react'
+
 import MonthList from '../components/MonthList'
 import data from '../components/log.json'
-
-import { useEffect } from 'react'
 
 function Journal() {
 

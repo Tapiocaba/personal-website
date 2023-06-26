@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
-import { Box, Typography, Link, Button } from '@mui/material';
+
+import { Box, Link } from '@mui/material';
+import { PageTitle, Text } from "../components/PageStyles";
 
 const study = [
   "integrative biology ˚ ༘♡ ⋆｡˚ ❀",
@@ -56,15 +58,14 @@ function Home() {
   return (
     <Box
         sx={{
-            marginLeft: 50,
             padding: '1em',
         }}
     >
-      <Typography sx={{fontWeight: 'bold', fontSize: '1.5em'}}>welcome to tapi's cove!</Typography>
+      <PageTitle>welcome to tapi's cove!</PageTitle>
 
       <br/>
 
-      <Typography sx={{fontSize: '0.8em', fontWeight: '500'}}>
+      <Text>
         i'm lisa, but i also go by tapi (short for tapiocaba)!
 
         i'm from a now more-suburban suburb in Dallas, but currently am based in cambridge, ma, where i'm studying cs 🖥️ and {" "}
@@ -86,7 +87,7 @@ function Home() {
           {currentInterest}
         </Box>
         .
-      </Typography>
+      </Text>
 
       <Box
         sx={{
@@ -96,14 +97,13 @@ function Home() {
         <br />
       </Box>
       
-      <Typography sx={{fontSize: '0.8em'}}>
+      <Text>
         feel free to reach out to me at {" "}
         <Link href="mailto:lisalin@college.harvard.edu">
           lisalin@college.harvard.edu
         </Link>!
-      </Typography>
+      </Text>
 
-      <Typography variant="h6">╰── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ──╯</Typography>
     </Box>
   );
 }

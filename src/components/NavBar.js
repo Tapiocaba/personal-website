@@ -58,6 +58,7 @@ const NavBar = () => {
                             <ListItemText
                                 primary={item.title}
                                 sx={{
+                                    textAlign: 'right',
                                     color: location.pathname === item.path ? '#efc7c2' : '#8CB190',
                                     '&:hover': {
                                         color: '#bfd3c1',

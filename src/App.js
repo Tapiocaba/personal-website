@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import { CssBaseline } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -34,6 +34,26 @@ const theme = createTheme({
     fontSize: 18,
   },
   components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        body: {
+          overflowY: 'scroll',
+          '&::-webkit-scrollbar': {
+            width: '5px',
+          },
+          '&::-webkit-scrollbar-track': {
+            backgroundColor: '#FFEEE2',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            backgroundColor: '#bfd3c1', // a lighter color
+            borderRadius: '20px',
+          },
+          '&::-webkit-scrollbar-thumb:hover': {
+            backgroundColor: '#8CB190', // change color on hover
+          },
+        },
+      },
+    },
     MuiLink: {
       styleOverrides: {
         root: {
@@ -55,48 +75,30 @@ function App() {
   });
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Box
-        className="App"
-        sx={{
-          display: 'flex',
-          flexDirection: ['column', 'row'], // column layout for small screens, row layout for larger screens
-        }}
-      >
-        <Box
-          sx={{
-            width: ['100%', '25%'], // full width for small screens, 25% width for larger screens
-            paddingTop: '12%',
-            paddingLeft: ['10%', '30%'], // 10% padding for small screens, 30% for larger screens
-            position: 'fixed',
-            top: 0,
-            left: 0,
-          }}
-        >
-          <NavBar />
-        </Box>
+  <ThemeProvider theme={theme}>
+    <CssBaseline />
+    <Grid container style = {{
+        marginTop: '10%', 
+        }}>
+      <Grid item xs={12} sm={3} style={{
+        position: 'fixed', 
+        marginLeft: '27%', 
+        }}>
+        <NavBar />
+      </Grid>
+      <Grid item xs={12} sm={9} style={{marginLeft: '35%', marginRight: '25%'}}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/journal" element={<Journal />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Grid>
+    </Grid>
+  </ThemeProvider>
 
-        <Box
-          className="flex-container"
-          id="content"
-          sx={{
-            width: ['100%', '75%'], // full width for small screens, 75% width for larger screens
-            paddingTop: ['0', '10%'], // no padding for small screens, 20% padding for larger screens
-            paddingLeft: ['0', '10%'], // no padding for small screens, 25% padding for larger screens
-          }}
-        >
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/journal" element={<Journal />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Box>
-      </Box>
-    </ThemeProvider>
   );
 }
 

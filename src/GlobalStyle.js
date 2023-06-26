@@ -67,4 +67,3 @@ const useGlobalStyles = makeStyles({
 });
 
 export default useGlobalStyles;
-
