@@ -24,6 +24,12 @@ const NavBar = () => {
             title: "Projects",
             path: "/projects"
         },
+        /* 
+        {
+            title: "Toybox",
+            path: "/toybox"
+        },
+        */
         { 
             title: "Journal",
             path: "/journal"

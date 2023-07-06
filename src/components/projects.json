@@ -1,0 +1,48 @@
+{
+    "projects": [
+      {
+        "list": [
+          {
+            "name": "personal website",
+            "description": "dis thing",
+            "link": "/",
+            "type": "react, mui, node",
+            "date": "mar 2023",
+            "image": "images/Personal-Website.png"
+          },
+          {
+            "name": "pokémon graph theory",
+            "description": ",math 22a final project; makes me look 110x better at math than i actually am.",
+            "link": "https://github.com/Tapiocaba/graph-theory-pokemon",
+            "type": "laTeX",
+            "date": "dec 2022",
+            "image": "images/GraphTheory.png"
+          },
+          {
+            "name": "blackjack50",
+            "description": "CS50 final project. College-friendly gambling!",
+            "link": "https://github.com/Tapiocaba/Blackjack50",
+            "type": "html/css/js",
+            "date": "dec 2022",
+            "image": "images/BlackJack50.png"
+          },
+          {
+            "name": "PlanTic Pomodoro Timer",
+            "description": "Kode with Klossy 2021 final project. Tic, cuz it ticks like a clock.",
+            "link": "https://github.com/Tapiocaba/PlanTic-Pomodoro-Timer---KWK-Final-Project",
+            "type": "html/css/js",
+            "date": "july 2021",
+            "image": "images/PlanTic-Project.png"
+          },
+          {
+            "name": "Divercity",
+            "description": "kode with klossy 2020 final project..",
+            "link": "https://github.com/racheltgunawan/Divercity---KWK-group-project",
+            "type": "swift, xcode",
+            "date": "july 2020",
+            "image": "images/DiverCity.png"
+          }
+        ]
+      }
+    ]
+  }

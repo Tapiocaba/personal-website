@@ -1,74 +1,66 @@
 import React, { useEffect } from 'react';
-import { NavLink } from "react-router-dom";
+import { Box, CardMedia, Typography, Grid } from '@mui/material';
+import { PageTitle, Text, SmallBreak, GreenLink } from '../components/PageStyles';
 
-import { Box } from '@mui/system';
-
-import { PageTitle, Text, GreenLink, SmallBreak } from '../components/PageStyles';
+import projects from '../components/projects.json';
 
 function Projects() {
     useEffect(() => {
         document.title = "projects";
-      }, []);
-  
+    }, []);
+    
+    const renderProject = (project, index) => {
+        return (
+            <Grid item xs={12} sm={6} key={index}>
+                <Box sx={{
+                    border: '1.5px solid black',
+                    cursor: 'pointer',
+                    '&:hover': {
+                        boxShadow: '8px 8px 0px 0px #FEC2AE',
+                    }
+                }}>
+                    <a href={project.link} target="_blank" rel="noreferrer">
+                        <CardMedia
+                            component="img"
+                            height="200"
+                            width="200"
+                            image={project.image}
+                            alt={project.name}
+                        />
+                    </a>
+                </Box>
+                <Box sx={{ maxWidth: 345, marginBottom: 3 }}>
+                    <SmallBreak />
+                    <GreenLink href={project.link}>
+                            {project.name}
+                    </GreenLink>
+                    <Typography variant="body2" color="text.secondary" fontWeight="bold">
+                        {project.type} / {project.date}
+                    </Typography>
+                    <Text color="text.secondary">
+                        {project.description}
+                    </Text>
+                </Box>
+            </Grid>
+        )
+    }
+
     return (
         <Box className="normalPage" sx={{ margin: '1em' }}>
             <PageTitle>projects</PageTitle>
             <Text>
                 full projects section coming soon, pls let me cook ┬──┬ ¯\_(ツ)
             </Text>
-            <Text>
-                for now, feel free to look at my{" "}
-                <GreenLink href="https://github.com/Tapiocaba" target="_blank" rel="noreferrer">
-                    GitHub
-                </GreenLink>!
-            </Text>
-
-            <Text>.・。.・゜✭・.・✫・゜・。.</Text>
-            
-            <Text>
-                <GreenLink to="/" component={NavLink} underline="always">
-                    Personal Website
-                </GreenLink>
-                <br/>
-                dis thing
-            </Text>
             <SmallBreak />
-            <Text>
-                <GreenLink
-                    href="https://github.com/Tapiocaba/graph-theory-pokemon" target="_blank" rel="noreferrer">
-                    Pokémon Graph Theory
-                </GreenLink>
-                <br/>
-                this isn't coding but I'm proud of it. Makes me look 110x better at math than I actually am.
-            </Text>
             <SmallBreak />
-            <Text>
-                <GreenLink
-                    href="https://github.com/Tapiocaba/Blackjack50" target="_blank" rel="noreferrer">
-                    Blackjack50
-                </GreenLink>
-                <br/>
-                CS50 final project. College-friendly gambling!
-            </Text>
-            <SmallBreak />
-            <Text>
-                <GreenLink
-                    href="https://github.com/Tapiocaba/PlanTic-Pomodoro-Timer---KWK-Final-Project" target="_blank" rel="noreferrer">
-                    PlanTic Pomodoro Timer
-                </GreenLink>
-                <br/>
-                Kode with Klossy 2021 final project. Tic, cuz it ticks like a clock.
-            </Text>
-            <SmallBreak />
-            <Text>
-                <GreenLink
-                    href="https://github.com/racheltgunawan/Divercity---KWK-group-project" target="_blank" rel="noreferrer">
-                    Divercity iOS App
-                </GreenLink>
-                <br/>
-                Kode with Klossy 2020 final project. Built with Swift, now I don't use a Mac.
-            </Text>
-            
+            {projects.projects.map((section, index) => (
+                <Box key={index}>
+                    <PageTitle>{section.title}</PageTitle>
+                    <Grid container spacing={4}>
+                        {section.list.map(renderProject)}
+                    </Grid>
+                </Box>
+            ))}
         </Box>
     )
 }

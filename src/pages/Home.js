@@ -102,7 +102,7 @@ function Home() {
         feel free to reach out to me at {" "}
         <Link href="mailto:lisalin@college.harvard.edu">
           lisalin@college.harvard.edu
-        </Link>!
+        </Link>!        
       </Text>
 
     </Box>
