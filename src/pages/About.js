@@ -48,9 +48,9 @@ function About() {
         <RedLink href="https://bobatalks.com/">BobaTalks</RedLink>
         .
         <SmallBreak />
-        i'm currently working at {" "}
-        <RedLink href="https://www.axleapi.com/"> Axle </RedLink>
-        , working on a universal data platform for trucking!
+        interning at {" "}
+        <RedLink href="https://www.axleapi.com/"> Axle</RedLink>
+        , working on full-stack development for a universal data platform for trucking!
         <SmallBreak />
       </Text>
 

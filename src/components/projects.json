@@ -3,6 +3,14 @@
       {
         "list": [
           {
+            "name": "looklab",
+            "description": "created for July 2023 ScaleAI Generative AI Hackathon; provides visual simulation of potential plastic surgery results",
+            "link": "https://docs.google.com/presentation/d/1ncYEBHUvivdFXlCVrvT1hyUIU0RTAzy0/preview?slide=id.p1",
+            "type": "react native, flask, tensorflow",
+            "date": "july 2023",
+            "image": "images/LookLab.png"
+          },
+          {
             "name": "personal website",
             "description": "dis thing",
             "link": "/",
@@ -22,7 +30,7 @@
             "name": "blackjack50",
             "description": "CS50 final project. College-friendly gambling!",
             "link": "https://github.com/Tapiocaba/Blackjack50",
-            "type": "html/css/js",
+            "type": "html, css, js",
             "date": "dec 2022",
             "image": "images/BlackJack50.png"
           },
@@ -30,13 +38,13 @@
             "name": "PlanTic Pomodoro Timer",
             "description": "Kode with Klossy 2021 final project. Tic, cuz it ticks like a clock.",
             "link": "https://github.com/Tapiocaba/PlanTic-Pomodoro-Timer---KWK-Final-Project",
-            "type": "html/css/js",
+            "type": "html, css, js",
             "date": "july 2021",
             "image": "images/PlanTic-Project.png"
           },
           {
             "name": "Divercity",
-            "description": "kode with klossy 2020 final project..",
+            "description": "kode with klossy 2020 final project; helps you find poc-owned businesses!",
             "link": "https://github.com/racheltgunawan/Divercity---KWK-group-project",
             "type": "swift, xcode",
             "date": "july 2020",

@@ -38,6 +38,15 @@ const uniItems = [
         linkText: 'HULR',
         textAfter: ')',
     },
+    /*
+    {
+      strikethrough: 'got cheap lsat prep',
+      text: 'indulge in prelaw dreams pt.2 (',
+      link: '/',
+      linkText: 'HAALA',
+      textAfter: ')',
+    },
+    */
     {
         strikethrough: 'accidentally joined a consulting club ',
         text: 'explored product management (',

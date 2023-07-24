@@ -2,10 +2,18 @@
     "log": [
         {
             "year": 2023,
+            "month": "July",
+            "items": [
+                "participated in a hackathon and cuddled puppies"
+            ]
+        },
+        {
+            "year": 2023,
             "month": "June",
             "items": [
-                "starting club with friends!",
-                "revamped wesite with mui :>"
+                "started club with friends!",
+                "revamped wesite with mui :>",
+                "learned a new piano piece"
             ]
         },
         {
