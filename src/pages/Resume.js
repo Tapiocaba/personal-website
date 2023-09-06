@@ -19,11 +19,11 @@ function Resume() {
         <GreenLink href="https://www.resume.lol/" target="_blank" rel="noreferrer">
           resume.lol
         </GreenLink>
-        ; updated 6/25/2023
+        ; updated 09/06/2023
       </Text>
 
       <iframe
-        src="https://drive.google.com/file/d/1F33vSJn0GupYxdC9TkVAZ1d0u47jDMER/preview"
+        src="https://drive.google.com/file/d/1DiIf020wx9nCqywNAlFCgfrNsrOIlWX7/preview"
         width="640"
         height="825"
         allow="autoplay"
