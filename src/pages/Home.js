@@ -5,11 +5,10 @@ import { Box, Link } from '@mui/material';
 import { PageTitle, Text } from "../components/PageStyles";
 
 const study = [
-  "integrative biology ˚ ༘♡ ⋆｡˚ ❀",
   "art, film, and visual studies ✎ (❁ᴗ͈ˬᴗ͈) ༉‧ ♡*.✧",
   "law ˏˋ°•*⁀➷",
   "product management ✧˖*°࿐",
-  "i don't know man ⋆ˊˎ-•̩"
+  "i don't know ⋆ˊˎ-•̩"
 ]
 
 const interest = [

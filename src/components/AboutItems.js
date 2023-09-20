@@ -38,15 +38,13 @@ const uniItems = [
         linkText: 'HULR',
         textAfter: ')',
     },
-    /*
     {
-      strikethrough: 'got cheap lsat prep',
+      strikethrough: 'was accepted into harvard law (jk unless)',
       text: 'indulge in prelaw dreams pt.2 (',
       link: '/',
       linkText: 'HAALA',
       textAfter: ')',
     },
-    */
     {
         strikethrough: 'accidentally joined a consulting club ',
         text: 'explored product management (',
@@ -55,7 +53,7 @@ const uniItems = [
         textAfter: ')',
     },
     {
-        strikethrough: 'have an excuse to pull an all-nighter ',
+        strikethrough: 'attempt to get goats into our engineering building ',
         text: 'help run a hackathon (',
         link: 'https://www.hackharvard.org/',
         linkText: 'HackHarvard',
@@ -64,6 +62,12 @@ const uniItems = [
   ];
 
   const prevItems = [
+    {
+      text: 'worked full-stack on a data platform for trucking (',
+      link: 'https://www.axleapi.com/',
+      linkText: 'Axle Inc.',
+      textAfter: ')',
+    },
     {
       text: 'taught web development to high schoolers (',
       link: 'https://www.kodewithklossy.com/',
