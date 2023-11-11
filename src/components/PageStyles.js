@@ -1,5 +1,7 @@
 import React from 'react';
-import {Typography, Link} from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
+
+import { Typography, Link } from '@mui/material';
 import { Box } from '@mui/system';
 
 // Page formatting
@@ -99,15 +101,32 @@ export const RedLink = ({ href, children }) => (
     </Link>
   );
 
-  export const GreenLink = ({ href, children, ...props }) => (
-    <Link 
-      href={href} 
-      target="_blank" 
-      rel="noreferrer" 
-      underline="always"
-      sx={{ color: '#8CB190', fontWeight: 'bold', '&:hover': {color: '#bfd3c1'} }}
-      {...props}
-    >
-      {children}
-    </Link>
+export const GreenLink = ({ href, children, ...props }) => (
+  <Link 
+    href={href} 
+    target="_blank" 
+    rel="noreferrer" 
+    underline="always"
+    sx={{ color: '#8CB190', fontWeight: 'bold', '&:hover': {color: '#bfd3c1'} }}
+    {...props}
+  >
+    {children}
+  </Link>
+);
+
+export const InternalLink = ({ to, children }) => (
+  <Link 
+    component={RouterLink} 
+    to={to} // react-router-dom's link prop for navigation
+    underline="hover" 
+    sx={{
+      color: '#D56E61', 
+      '&:hover': {
+        color: '#efc7c2',
+      },
+      textDecoration: 'none'
+    }}
+  >
+    {children}
+  </Link>
 );

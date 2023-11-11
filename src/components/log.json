@@ -2,6 +2,14 @@
     "log": [
         {
             "year": 2023,
+            "month": "Oct",
+            "items": [
+                "ran hackharvard",
+                "ate more farm fresh eggs from my egg dealer"
+            ]
+        },
+        {
+            "year": 2023,
             "month": "Sept",
             "items": [
                 "started sophomore year >->",

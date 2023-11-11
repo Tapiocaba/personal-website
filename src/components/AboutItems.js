@@ -1,7 +1,7 @@
 const uniItems = [
     {
         strikethrough: 'became an admissions officer',
-        text: "make youtube videos for harvard admissions",
+        text: "edit youtube videos",
         subList: [
           {
             textBeforeLink: ' ',
@@ -15,17 +15,16 @@ const uniItems = [
             link: 'https://www.youtube.com/watch?v=67XjW6rmths',
             textAfterLink: ''
           },
+          {
+            textBeforeLink: ' ',
+            linkText: 'Day in the Life of a CS Student (Freshman Year)',
+            link: 'https://www.youtube.com/watch?v=zytXpyCvH2c&t=112s&ab',
+            textAfterLink: ''
+          },
         ],
       },      
     {
-      strikethrough: 'stole free merch',
-      text: 'help run the largest student-run women in tech conference (',
-      linkText: "Harvard WECode",
-      link: 'https://www.harvardwecode.com/',
-      textAfter: ")",
-    },
-    {
-        strikethrough: 'taught competitive pokémon to high schoolers',
+        strikethrough: 'taught competitive pokémon to kids',
         text: 'plan international conferences (',
         link: 'https://www.hauscr.org/',
         linkText: 'HAUSCR',
@@ -40,20 +39,13 @@ const uniItems = [
     },
     {
       strikethrough: 'was accepted into harvard law (jk unless)',
-      text: 'indulge in prelaw dreams pt.2 (',
+      text: 'drink boba with lawyers (',
       link: '/',
       linkText: 'HAALA',
       textAfter: ')',
     },
     {
-        strikethrough: 'accidentally joined a consulting club ',
-        text: 'explored product management (',
-        link: 'https://www.hcsproductlab.org/',
-        linkText: 'Product Lab',
-        textAfter: ')',
-    },
-    {
-        strikethrough: 'attempt to get goats into our engineering building ',
+        strikethrough: 'successfully got goats and sheep into the engineering building',
         text: 'help run a hackathon (',
         link: 'https://www.hackharvard.org/',
         linkText: 'HackHarvard',
