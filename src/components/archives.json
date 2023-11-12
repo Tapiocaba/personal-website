@@ -1,0 +1,51 @@
+{
+    "clubs": [
+      "Organized the largest student-run women in tech conference with 900+ attendees",
+      "Consulted for a Fortune 500 communications company on AI-powered video calling"
+    ],
+    "courses": [
+        {
+            "term": "spring 2024",
+            "classes": [
+              "CS 175 - Computer Graphics",
+              "ENGLISH 20 - Literary Forms",
+              "COMPLIT 200 - Computing Fantasy: Imagination, Invention, Radical Pedagogy (Munari / Rodari / Calvino)",
+              "AFVS 97 - Sophomore Tutorial"
+            ]
+          },
+      {
+        "term": "fall 2023",
+        "classes": [
+          "STAT 110 - Probability",
+          "ENG-SCI 139 - Innovation in Science and Engineering",
+          "GENED 1006 - Music From Earth",
+          "SLAVIC 191 - Silent Film"
+        ]
+      },
+      {
+        "term": "summer 2023",
+        "classes": [
+            "VISU S-14 - Drawing and the Digital Age"
+        ]
+      },
+      {
+        "term": "spring 2023",
+        "classes": [
+          "CS 124 - Data Structures and Algorithms",
+          "ECON 10B - Principles of Economics (Macroeconomics)",
+          "GENED 1115 - Human Trafficking, Slavery, and Abolition in the Modern World",
+          "EXPOS 20 - Wastelands"
+        ]
+      },
+      {
+        "term": "fall 2022",
+        "classes": [
+          "Math 22A - Vector Calculus and Linear Algebra",
+          "CS 50 - Introduction to Computer Science",
+          "GENED 1038 - Science of Sleep",
+          "AFVS 12 - Drawing 1: Drawing as a Visual Language"
+        ]
+      }
+    ]
+  }
+  
