@@ -19,11 +19,11 @@ function Resume() {
         <GreenLink href="https://www.resume.lol/" target="_blank" rel="noreferrer">
           resume.lol
         </GreenLink>
-        ; updated 09/06/2023
+        ; updated 11/19/2023
       </Text>
 
       <iframe
-        src="https://drive.google.com/file/d/1DiIf020wx9nCqywNAlFCgfrNsrOIlWX7/preview"
+        src="https://drive.google.com/file/d/1PQexE4R0_-p6IUKgwGrcVWtlrBiP34x2/preview"
         width="640"
         height="825"
         allow="autoplay"
@@ -31,9 +31,6 @@ function Resume() {
         style={{border: 'none', margin: '1em 0'}}
       ></iframe>
 
-      <GreenLink href="/lisa_lin_resume.pdf" download="lisa_lin_resume.pdf">
-        Download
-      </GreenLink>
     </Box>
   );
 }
