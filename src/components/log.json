@@ -13,7 +13,7 @@
             "month": "Aug",
             "items": [
                 { "text": "taught kids how to play competitive pokemon" },
-                { "text": "took sick hanfu photos in china", "link": "/hanfu-photos" },
+                { "text": "took sick hanfu photos in china"},
                 { "text": "ate a scorpion in thailand" }
             ]            
         },
