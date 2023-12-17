@@ -27,6 +27,10 @@ export default function HanfuPhotos() {
                 hanfu photos from aug 2023, i never have an excuse to show them since i don't post on insta :) THESE ARE UNEDITIED
             </Text>
             <SmallBreak />
+            <Text>
+                these are also insanely compressed because of vercel file limits :( so skin looks patchy ITS LOOKS SM BETTER WHEN ITS THE FULL FILE SIZE
+            </Text>
+            <SmallBreak />
 
             <Grid container spacing={2}>
                 {photoNames.map((photoName, index) => (
