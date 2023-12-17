@@ -2,110 +2,77 @@
     "log": [
         {
             "year": 2023,
-            "month": "Oct",
-            "items": [
-                "ran hackharvard",
-                "ate more farm fresh eggs from my egg dealer"
-            ]
-        },
-        {
-            "year": 2023,
             "month": "Sept",
             "items": [
-                "started sophomore year >->",
-                "went to a tapia (haha tapi[oc]a[ba])"
+                { "text": "started sophomore year >->" },
+                { "text": "went to a tapia (haha tapi[oc]a[ba])" }
             ]
         },
         {
             "year": 2023,
             "month": "Aug",
             "items": [
-                "went to china for the first time in almost a decade!",
-                "taught kids how to play competitive pokemon",
-                "took sick hanfu photos in china",
-                "ate a scorpion in thailand"
-            ]
-        },
-        {
-            "year": 2023,
-            "month": "July",
-            "items": [
-                "participated in a hackathon and cuddled puppies",
-                "played pickleball, determined tennis was better"
-            ]
-        },
-        {
-            "year": 2023,
-            "month": "June",
-            "items": [
-                "started club with friends!",
-                "revamped wesite with mui :>",
-                "learned a new piano piece"
-            ]
+                { "text": "taught kids how to play competitive pokemon" },
+                { "text": "took sick hanfu photos in china", "link": "/hanfu-photos" },
+                { "text": "ate a scorpion in thailand" }
+            ]            
         },
         {
             "year": 2023,
             "month": "May",
             "items" : [
-                "passed cs124 (thank god)",
-                "ate omakase for the first time",
-                "started internship at axle!"
+                { "text": "passed cs124 (thank god)" },
+                { "text": "ate omakase for the first time" },
+                { "text": "started internship at axle!" }
             ]
         },
         {
             "year": 2023,
             "month": "Apr",
             "items": [
-                "joined a musical (asian-latinx potentially gay footloose)",
-                "ran a research conference for high schoolers in china!",
-                "ate farm fresh eggs"
+                { "text": "joined a musical (asian-latinx potentially gay footloose)" },
+                { "text": "ran a research conference for high schoolers in china!" },
+                { "text": "ate farm fresh eggs" }
             ]
         },
         {
             "year": 2023,
             "month": "Mar",
             "items": [
-                "built a personal website",
-                "visited new orleans and had the best fried chicken in the u.s.",
-                "learned how to letter press"
+                { "text": "built a personal website" },
+                { "text": "had the best fried chicken in the u.s." },
+                { "text": "learned how to letter press" }
             ]
         },
         {
             "year": 2023,
             "month": "Feb",
             "items": [
-                "happy 19th birthday to me ଘ꒰ ๑ ˃̶ ᴗ ᵒ̴̶̷๑꒱و ̑̑",
-                "WECode 2023!"
+                { "text": "happy 19th birthday to me ଘ꒰ ๑ ˃̶ ᴗ ᵒ̴̶̷๑꒱و ̑̑" },
+                { "text": "WECode 2023!" }
             ]
         },
         {
             "year": 2022,
             "month": "Dec",
             "items": [
-                "started first pm internship at BobaTalks"
+                { "text": "started first pm internship at BobaTalks" }
             ]
         },
         {
             "year": 2022,
-            "month": "Sept",
+            "month": "Aug/Sept",
             "items": [
-                "went to philly for the first time!",
-                "started working for harv admissions"
-            ]
-        },
-        {
-            "year": 2022,
-            "month": "Aug",
-            "items": [
-                "started studying @ harvard",
-                "went on a 7-day backpacking trip up a 2k+ ft mountain in the new hampshire white mountains!"
+                { "text": "started studying @ harvard" },
+                { "text": "started working for harv admissions" },
+                { "text": "went on a 7-day backpacking trip up a 2k+ ft mountain in the new hampshire white mountains!" }
             ]
         },
         {
             "year": 2022,
             "month": "May",
             "items": [
-                "graduated high school! (∗ ᵒ̶̶̷̀ω˂̶́∗)੭₎₎̊₊♡"
+                { "text": "graduated high school! (∗ ᵒ̶̶̷̀ω˂̶́∗)੭₎₎̊₊♡" }
             ]
         }
     ]

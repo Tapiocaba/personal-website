@@ -1,15 +1,15 @@
 {
     "clubs": [
-      "organized the largest student-run women in tech conference with 900+ attendees",
-      "consulted for a Fortune 500 communications company on AI-powered video calling",
-      "did hair & makeup and videography for a moosicual"
+      "organized the largest student-run women in tech conference with 900+ attendees (Harvard WECode)",
+      "consulted for a Fortune 500 communications company on AI-powered video calling (HCS Product Lab)",
+      "did hair & makeup and videography for a moosicual (Harvard-Radcliffe Dramatic Club)",
+      "complained about the patent litigation system (Harvard Undergraduate Law Review)" 
     ],
     "courses": [
         {
             "term": "spring 2024 (plannnnned)",
             "classes": [
               "CS 175 - Computer Graphics",
-              "ENGLISH 20 - Literary Forms",
               "COMPLIT 200 - Computing Fantasy: Imagination, Invention, Radical Pedagogy (Munari / Rodari / Calvino)",
               "AFVS 54S - Animating Science",
               "AFVS 97 - Sophomore Tutorial"

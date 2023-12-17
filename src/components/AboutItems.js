@@ -31,13 +31,6 @@ const uniItems = [
         textAfter: ')',
     },
     {
-        strikethrough: 'quit cs',
-        text: 'indluge my middle school prelaw dreams (',
-        link: 'https://hulr.org/technology-and-the-law-expert-interviews/big-speech-and-free-expression',
-        linkText: 'HULR',
-        textAfter: ')',
-    },
-    {
       strikethrough: 'was accepted into harvard law (jk unless)',
       text: 'drink boba with lawyers (',
       link: '/',
@@ -45,12 +38,19 @@ const uniItems = [
       textAfter: ')',
     },
     {
-        strikethrough: 'successfully got goats and sheep into the engineering building',
+        strikethrough: 'successfully smuggled goats and sheep into the engineering building',
         text: 'help run a hackathon (',
         link: 'https://www.hackharvard.org/',
         linkText: 'HackHarvard',
         textAfter: ')',
     },
+    {
+      strikethrough: 'spilled way too many cans of pumpkin puree',
+      text: 'made a LOT of pumpkin cookies. like, a LOT (',
+      link: 'https://thefoodlabharvard.wixsite.com/home',
+      linkText: 'Food Lab',
+      textAfter: ')',
+    }
   ];
 
   const prevItems = [

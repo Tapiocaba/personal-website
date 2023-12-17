@@ -7,7 +7,7 @@ import { PageTitle, Text } from "../components/PageStyles";
 const study = [
   "art, film, and visual studies ✎ (❁ᴗ͈ˬᴗ͈) ༉‧ ♡*.✧",
   "law ˏˋ°•*⁀➷",
-  "english ꨄ︎☆",
+  "software engineering ꨄ︎☆",
   "product management ✧˖*°࿐",
   "i don't know ⋆ˊˎ-•̩"
 ]
@@ -19,15 +19,16 @@ const interest = [
   "critiquing restaurants 🍣",
   "asking my boss questions about my love life 🤔",
   "listening to taylor swift 🎶 ",
-  "simping over yelan 🎮",
+  "making cheat sheets in figma 📝",
   "about to physicaly fight the harvard economics department 🥊",
-  "realizing i should've written this website in TS 🤦‍♀️",
+  "listening to hopeless romantic songs (shoutout to laufey and beabadoobee) 🎶",
   "psychoanalyzing my friends' mbtis 🧠",
   "looking up questionable pinterest art for my dnd characters 🐺",
   "almost doing a pull up at the gym 🏋️‍♀️",
   "reading ali hazelwood books 🥰",
-  "ADO WORLD TOUR ADO WORLD TOUR 🧑‍💻",
+  "waking up at 8am to get laufey tickets 🎫",
   "daydreaming about booktok romance scenarios 📚",
+  "attending comedy shows 🎭",
   "late night league sessions with dnd group 🐉"
 ]
 
@@ -65,7 +66,7 @@ function Home() {
       <br/>
 
       <Text>
-        i'm lisa, but i also go by tapi (short for tapiocaba)!
+        i'm lisa, but online, i go by tapi (short for tapiocaba)!
 
         i'm from a now more-suburban suburb in dallas, but currently am based in cambridge, ma, where i'm studying cs 🖥️ and {" "}
         <Box component="span" role="button" onClick={handleStudyClick} sx={{ color: '#8CB190', cursor: 'pointer', '&:hover': { color: '#bfd3c1' } }}>

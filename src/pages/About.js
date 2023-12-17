@@ -24,7 +24,7 @@ function About() {
 
       <Text>ₓ˚. ୭ ˚○◦˚.˚◦○˚ ୧ .˚ₓ</Text>
 
-      <Text> hi hi! welcome to my about page, featuring the only good picture of me in the past year or so :p </Text>
+      <Text> hi hi! welcome to my about page, featuring the only good picture i've taken in the past 2 years or so :p </Text>
       <SmallBreak />
       <Text>
         personally, i'm someone interested in 100 different things at once, but i've consistently loved in tech, art,
@@ -34,6 +34,7 @@ function About() {
       <SmallBreak />
       <Text>while i'm still trying to figure things out, i'm trying new things at every opportunity and pushing myself out of my comfort zone! thanks for visiting my page :P i really appreciate it!! </Text>
       <SmallBreak />
+      <SmallBreak />
       <Text><b>currently, i'm</b></Text>
       <SmallBreak />
 
@@ -42,11 +43,13 @@ function About() {
         <RedLink href="https://www.harvard.edu/">harvard university</RedLink>
         , studying a double concentration in computer science and art, film, and visual studies
         <SmallBreak />
-        interested in generative ai, tech/art, diversity, and education.
+        incoming summer STEP intern at {" "}
+        <RedLink href="https://www.google.com/about/careers/">google</RedLink>
         <SmallBreak />
         working as a product management intern, increasing access to mentorship with {" "}
         <RedLink href="https://bobatalks.com/">BobaTalks</RedLink>
-        .
+        <SmallBreak />
+        interested in graphics, tech/art, diversity, and education
         <SmallBreak />
         and not getting enough {" "}
         <InternalLink to="/archive">sleep</InternalLink>
