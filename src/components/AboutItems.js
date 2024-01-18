@@ -11,14 +11,20 @@ const uniItems = [
           },
           {
             textBeforeLink: ' ',
-            linkText: 'WECode 2023 vlog',
-            link: 'https://www.youtube.com/watch?v=67XjW6rmths',
+            linkText: 'harvard premed students mukbang',
+            link: 'https://www.youtube.com/watch?v=2BCuwppi6As&ab',
             textAfterLink: ''
           },
           {
             textBeforeLink: ' ',
-            linkText: 'Day in the Life of a CS Student (Freshman Year)',
+            linkText: 'day in the life of a cs student (freshman year)',
             link: 'https://www.youtube.com/watch?v=zytXpyCvH2c&t=112s&ab',
+            textAfterLink: ''
+          },
+          {
+            textBeforeLink: ' ',
+            linkText: 'wecode 2023 vlog',
+            link: 'https://www.youtube.com/watch?v=67XjW6rmths',
             textAfterLink: ''
           },
         ],
@@ -38,13 +44,6 @@ const uniItems = [
       textAfter: ')',
     },
     {
-        strikethrough: 'successfully smuggled goats and sheep into the engineering building',
-        text: 'help run a hackathon (',
-        link: 'https://www.hackharvard.org/',
-        linkText: 'HackHarvard',
-        textAfter: ')',
-    },
-    {
       strikethrough: 'spilled way too many cans of pumpkin puree',
       text: 'made a LOT of pumpkin cookies. like, a LOT (',
       link: 'https://thefoodlabharvard.wixsite.com/home',
@@ -54,6 +53,12 @@ const uniItems = [
   ];
 
   const prevItems = [
+    {
+      text: 'managed and helped create mentorship opportunities for students (',
+      link: 'https://bobatalks.com/',
+      linkText: 'BobaTalks',
+      textAfter: ')',
+    },
     {
       text: 'worked full-stack on a data platform for trucking (',
       link: 'https://www.axleapi.com/',

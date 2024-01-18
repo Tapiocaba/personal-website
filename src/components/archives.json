@@ -1,7 +1,8 @@
 {
     "clubs": [
       "organized the largest student-run women in tech conference with 900+ attendees (Harvard WECode)",
-      "consulted for a Fortune 500 communications company on AI-powered video calling (HCS Product Lab)",
+      "bought goats and chickens into the engineering building for 600+ hackers (HackHarvard)",
+      "consulted for a Fortune 500 communications company on an AI-powered video calling platform (HCS Product Lab)",
       "did hair & makeup and videography for a moosicual (Harvard-Radcliffe Dramatic Club)",
       "complained about the patent litigation system (Harvard Undergraduate Law Review)" 
     ],
@@ -10,8 +11,8 @@
             "term": "spring 2024 (plannnnned)",
             "classes": [
               "CS 175 - Computer Graphics",
-              "COMPLIT 200 - Computing Fantasy: Imagination, Invention, Radical Pedagogy (Munari / Rodari / Calvino)",
-              "AFVS 54S - Animating Science",
+              "CS 226R* - Topics in Theory for Society: The Theory of Algorithmic Fairness",
+              "COMPLIT 200* - Computing Fantasy: Imagination, Invention, Radical Pedagogy (Munari / Rodari / Calvino)",
               "AFVS 97 - Sophomore Tutorial"
             ]
           },

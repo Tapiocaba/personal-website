@@ -26,6 +26,7 @@ export default function Archive() {
             <SmallBreak />
 
             <Text as="h1" sx={{ fontWeight: 'bold', fontSize: '1.5em' }}>courses</Text>
+            <Text as="p">* = graduate courses</Text>
             {archives.courses.map((term, index) => (
                 <React.Fragment key={index}>
                     <Text as="h3" sx={{ fontWeight: 'bold' }}>{term.term}</Text>

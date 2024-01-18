@@ -29,7 +29,7 @@ function About() {
       <Text>
         personally, i'm someone interested in 100 different things at once, but i've consistently loved in tech, art,
         long walks around cities, animals, all things food, and hanging out with friends! you can find me trying new
-        restaurants, playing new semi-realism video games, and 4am revenge-bedtime-procrastinating my way through life.
+        restaurants, playing semi-realism video games, and 4am revenge-bedtime-procrastinating my way through life.
       </Text>
       <SmallBreak />
       <Text>while i'm still trying to figure things out, i'm trying new things at every opportunity and pushing myself out of my comfort zone! thanks for visiting my page :P i really appreciate it!! </Text>
@@ -46,12 +46,9 @@ function About() {
         incoming summer STEP intern at {" "}
         <RedLink href="https://www.google.com/about/careers/">google</RedLink>
         <SmallBreak />
-        working as a product management intern, increasing access to mentorship with {" "}
-        <RedLink href="https://bobatalks.com/">BobaTalks</RedLink>
-        <SmallBreak />
         interested in graphics, tech/art, diversity, and education
         <SmallBreak />
-        and not getting enough {" "}
+        not getting enough {" "}
         <InternalLink to="/archive">sleep</InternalLink>
       </Text>
       <SmallBreak />
@@ -59,7 +56,6 @@ function About() {
       <PageList items={uniItems} />
       <Text><b>previously, i've</b></Text>
       <PageList items={prevItems} />
-
     </Box>
   );
 }

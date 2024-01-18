@@ -7,27 +7,26 @@ import { PageTitle, Text } from "../components/PageStyles";
 const study = [
   "art, film, and visual studies ✎ (❁ᴗ͈ˬᴗ͈) ༉‧ ♡*.✧",
   "law ˏˋ°•*⁀➷",
-  "software engineering ꨄ︎☆",
   "product management ✧˖*°࿐",
+  "filmmaking 🎬",
   "i don't know ⋆ˊˎ-•̩"
 ]
 
 const interest = [
-  "changing my secondary 🤔",
   "reading supreme court cases 📚",
   "making spotify playlists at every minor inconvenience 🎶",
   "critiquing restaurants 🍣",
   "asking my boss questions about my love life 🤔",
-  "listening to taylor swift 🎶 ",
   "making cheat sheets in figma 📝",
+  "sewing questionable quality cosplay outfits 🧵",
   "about to physicaly fight the harvard economics department 🥊",
-  "listening to hopeless romantic songs (shoutout to laufey and beabadoobee) 🎶",
+  "listening to soft pop (tehe laufey and beabadoobee) 🎶",
   "psychoanalyzing my friends' mbtis 🧠",
   "looking up questionable pinterest art for my dnd characters 🐺",
-  "almost doing a pull up at the gym 🏋️‍♀️",
+  "climbing purple rocks 🧗‍♀️",
   "reading ali hazelwood books 🥰",
+  "writing fanfiction 📝 (wait what)",
   "waking up at 8am to get laufey tickets 🎫",
-  "daydreaming about booktok romance scenarios 📚",
   "attending comedy shows 🎭",
   "late night league sessions with dnd group 🐉"
 ]
@@ -68,7 +67,7 @@ function Home() {
       <Text>
         i'm lisa, but online, i go by tapi (short for tapiocaba)!
 
-        i'm from a now more-suburban suburb in dallas, but currently am based in cambridge, ma, where i'm studying cs 🖥️ and {" "}
+        i'm from a now more-suburban suburb in dallas, but currently am based in cambridge, ma, where i'm studying computer science and {" "}
         <Box component="span" role="button" onClick={handleStudyClick} sx={{ color: '#8CB190', cursor: 'pointer', '&:hover': { color: '#bfd3c1' } }}>
           {currentStudy}
         </Box>

@@ -7,7 +7,6 @@ import Projects from './pages/Projects';
 import Journal from './pages/Journal';
 import NotFound from './pages/NotFound';
 import Archive from './pages/Archive';
-import HanfuPhotos from './pages/journalpages/HanfuPhotos';
 
 import { CssBaseline } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -99,7 +98,6 @@ function App() {
             <Route path="/journal" element={<Journal />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/archive" element={<Archive /> } />
-            <Route path="/hanfu-photos" element={<HanfuPhotos /> } />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Grid>

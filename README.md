@@ -6,13 +6,14 @@ Inspired by [quinn ha](https://www.quinnha.xyz/), [chengsu chen](https://www.che
 
 ## To-do:
 
+(most of this will never get done hehe)
+
 - [x] Deploy website
 - [x] Change to better CSS Framework (MUI or Tailwind)
+- [x] Mobile-friendly
 - [ ] Day/Night Mode
 - [ ] Guestbook
 - [ ] [chatbot_me](https://github.com/Tapiocaba/chatbot_me): mini-message app style!
-- [ ] Mobile-friendly
-- [ ] Adding some more cute images
 - [ ] Blog (??)
 
 ## Versions:

@@ -12,18 +12,18 @@ function Resume() {
   return (
     <Box className="normalPage" sx={{ margin: '1em' }}>
       <PageTitle>resume</PageTitle>
-      <Text> making college students look cooler since 2004 -(๑☆‿ ☆#)ᕗ </Text>
+      <Text> making this college student look cooler since 2004 -(๑☆‿ ☆#)ᕗ </Text>
       <SmallBreak />
       <Text>
         made with&nbsp;
         <GreenLink href="https://www.resume.lol/" target="_blank" rel="noreferrer">
           resume.lol
         </GreenLink>
-        ; updated 11/19/2023
+        ; updated 01/17/2024
       </Text>
 
       <iframe
-        src="https://drive.google.com/file/d/1PQexE4R0_-p6IUKgwGrcVWtlrBiP34x2/preview"
+        src="https://drive.google.com/file/d/1Favb-J97ZnbkZXpv7mF_se12x95ASH7c/preview"
         width="640"
         height="825"
         allow="autoplay"

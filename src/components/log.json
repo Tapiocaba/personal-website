@@ -1,6 +1,24 @@
 {
     "log": [
         {
+            "year": 2024,
+            "month": "Jan",
+            "items": [
+                { "text": "went barrelling down a mountain and fell onto a ski pole (haha pole dancing isn't helping you now is it lisa)" },
+                { "text": "saw joe hisaishi play howls moving castle and princess mononoke" },
+                { "text": "watched jjk season 2 in one night" },
+                { "text": "finished the entirety of suits" }  
+            ]
+        },
+        {
+            "year": 2023,
+            "month": "Nov/Dec",
+            "items": [
+                { "text": "did hair & makeup for a musical (asian-latinx footloose)" },
+                { "text": "passed stat110 (YUH)" }
+            ]
+        },
+        {
             "year": 2023,
             "month": "Sept",
             "items": [
@@ -28,20 +46,12 @@
         },
         {
             "year": 2023,
-            "month": "Apr",
-            "items": [
-                { "text": "joined a musical (asian-latinx potentially gay footloose)" },
-                { "text": "ran a research conference for high schoolers in china!" },
-                { "text": "ate farm fresh eggs" }
-            ]
-        },
-        {
-            "year": 2023,
-            "month": "Mar",
+            "month": "Mar/Apr",
             "items": [
                 { "text": "built a personal website" },
                 { "text": "had the best fried chicken in the u.s." },
-                { "text": "learned how to letter press" }
+                { "text": "learned how to letter press" },
+                { "text": "ran a research conference for high schoolers in china!" }
             ]
         },
         {
