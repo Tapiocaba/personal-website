@@ -27,12 +27,21 @@ function About() {
       <Text> hi hi! welcome to my about page, featuring the only good picture i've taken in the past 2 years or so :p </Text>
       <SmallBreak />
       <Text>
-        personally, i'm someone interested in 100 different things at once, but i've consistently loved in tech, art,
-        long walks around cities, animals, all things food, and hanging out with friends! you can find me trying new
-        restaurants, playing semi-realism video games, and 4am revenge-bedtime-procrastinating my way through life.
+        i'm lisa, born and raised in a pseudorandom combination of fuzhou, new york city, and dallas. 
+        i learned how to code while trying to make wings of fire and percy jackson fanart in {" "}
+        <RedLink href={"https://scratch.mit.edu/"}>scratch</RedLink>, and i learned both programming and video editing to
+        showcase my digital creations. 
       </Text>
       <SmallBreak />
-      <Text>while i'm still trying to figure things out, i'm trying new things at every opportunity and pushing myself out of my comfort zone! thanks for visiting my page :P i really appreciate it!! </Text>
+      <Text>
+        along with this, i'm usually interested in 100 different things at once. you can usually find me taking long walks
+        around the city, logging in food reviews in beli, trying new weird sports, and 4am revenge-bedtime-video-game-crastinating my way through life.
+      </Text>
+      <SmallBreak />
+      <Text>
+        while i'm still trying to figure things out, i'm trying new things at every opportunity and pushing myself out of my comfort zone! 
+        thanks for visiting my page :P i really appreciate it!
+      </Text>
       <SmallBreak />
       <SmallBreak />
       <Text><b>currently, i'm</b></Text>
