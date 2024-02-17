@@ -52,9 +52,6 @@ function About() {
         <RedLink href="https://www.harvard.edu/">harvard university</RedLink>
         , studying a double concentration in computer science and art, film, and visual studies
         <SmallBreak />
-        incoming summer STEP intern at {" "}
-        <RedLink href="https://www.google.com/about/careers/">google</RedLink>
-        <SmallBreak />
         interested in graphics, tech/art, diversity, and education
         <SmallBreak />
         not getting enough {" "}

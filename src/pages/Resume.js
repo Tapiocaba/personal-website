@@ -23,7 +23,7 @@ function Resume() {
       </Text>
 
       <iframe
-        src="https://drive.google.com/file/d/1Favb-J97ZnbkZXpv7mF_se12x95ASH7c/preview"
+        src="https://drive.google.com/file/d/1KeX4kPkvChw1Cc0Rn-eRVxnGRC1Ons_3/preview"
         width="640"
         height="825"
         allow="autoplay"
