@@ -35,7 +35,7 @@ function About() {
       <SmallBreak />
       <Text>
         along with this, i'm usually interested in 100 different things at once. you can usually find me taking long walks
-        around the city, logging in food reviews in beli, trying new weird sports, and 4am revenge-bedtime-video-game-crastinating my way through life.
+        around the city, nomming up nommies food, trying new weird sports, and 4am revenge-bedtime-video-game-crastinating my way through life.
       </Text>
       <SmallBreak />
       <Text>

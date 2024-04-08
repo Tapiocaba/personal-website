@@ -44,10 +44,10 @@ const uniItems = [
       textAfter: ')',
     },
     {
-      strikethrough: 'spilled way too many cans of pumpkin puree',
-      text: 'made a LOT of pumpkin cookies. like, a LOT (',
-      link: 'https://thefoodlabharvard.wixsite.com/home',
-      linkText: 'Food Lab',
+      strikethrough: 'swap to theater, dance, and media',
+      text: 'staff showz (',
+      link: 'https://hrdctheater.org/',
+      linkText: 'HDRC',
       textAfter: ')',
     }
   ];

@@ -3,8 +3,16 @@
       {
         "list": [
           {
+            "name": "voba",
+            "description": "helping elementary schoolers learn vocab through create-your-own adventure stories (TreeHacks)",
+            "link": "https://github.com/Tapiocaba/voba",
+            "type": "react, python, aws",
+            "date": "february 2024",
+            "image": "images/projects/Voba.png"
+          },
+          {
             "name": "looklab",
-            "description": "created for July 2023 ScaleAI Generative AI Hackathon; provides visual simulation of potential plastic surgery results",
+            "description": "creates visual simulation of potential plastic surgery results based on text input (ScaleAI Generative AI Hackathon)",
             "link": "https://docs.google.com/presentation/d/1ncYEBHUvivdFXlCVrvT1hyUIU0RTAzy0/preview?slide=id.p1",
             "type": "react native, flask, tensorflow",
             "date": "july 2023",
@@ -13,14 +21,14 @@
           {
             "name": "personal website",
             "description": "dis thing",
-            "link": "/",
-            "type": "react, mui, node",
+            "link": "https://github.com/Tapiocaba/personal-website",
+            "type": "react, mui",
             "date": "mar 2023",
             "image": "images/projects/Personal-Website.png"
           },
           {
             "name": "pokémon graph theory",
-            "description": ",math 22a final project; makes me look 110x better at math than i actually am.",
+            "description": "math 22a final project; makes me look 22x better at math than i actually am.",
             "link": "https://github.com/Tapiocaba/graph-theory-pokemon",
             "type": "laTeX",
             "date": "dec 2022",
@@ -28,7 +36,7 @@
           },
           {
             "name": "blackjack50",
-            "description": "CS50 final project. College-friendly gambling!",
+            "description": "cs50 final project. college-friendly gambling!",
             "link": "https://github.com/Tapiocaba/Blackjack50",
             "type": "html, css, js",
             "date": "dec 2022",
@@ -36,7 +44,7 @@
           },
           {
             "name": "PlanTic Pomodoro Timer",
-            "description": "Kode with Klossy 2021 final project. Tic, cuz it ticks like a clock.",
+            "description": "kode with klossy 2021 final project. tic, cuz it ticks like a clock.",
             "link": "https://github.com/Tapiocaba/PlanTic-Pomodoro-Timer---KWK-Final-Project",
             "type": "html, css, js",
             "date": "july 2021",
@@ -46,7 +54,7 @@
             "name": "Divercity",
             "description": "kode with klossy 2020 final project; helps you find poc-owned businesses!",
             "link": "https://github.com/racheltgunawan/Divercity---KWK-group-project",
-            "type": "swift, xcode",
+            "type": "swift",
             "date": "july 2020",
             "image": "images/projects/DiverCity.png"
           }
