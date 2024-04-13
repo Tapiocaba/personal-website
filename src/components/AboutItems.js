@@ -47,7 +47,7 @@ const uniItems = [
       strikethrough: 'swap to theater, dance, and media',
       text: 'staff showz (',
       link: 'https://hrdctheater.org/',
-      linkText: 'HDRC',
+      linkText: 'HRDC',
       textAfter: ')',
     }
   ];

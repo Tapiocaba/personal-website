@@ -7,8 +7,7 @@ import { PageTitle, Text } from "../components/PageStyles";
 const study = [
   "art, film, and visual studies ✎ (❁ᴗ͈ˬᴗ͈) ༉‧ ♡*.✧",
   "law ˏˋ°•*⁀➷",
-  "product management ✧˖*°࿐",
-  "filmmaking 🎬",
+  "theater, dance, and media 🎬",
   "i don't know ⋆ˊˎ-•̩"
 ]
 
@@ -28,6 +27,7 @@ const interest = [
   "writing fanfiction 📝 (wait what)",
   "waking up at 8am to get laufey tickets 🎫",
   "attending comedy shows 🎭",
+  "going to art museums 🖼️",
   "late night league sessions with dnd group 🐉"
 ]
 
