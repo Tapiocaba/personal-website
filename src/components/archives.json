@@ -1,134 +1,133 @@
 {
-    "clubs": [
-      {
-        "description": "organize a research and innovation conference for 10k+ high schoolers in China",
-        "linkText": "HAUSCR",
-        "role": "China Thinks Big Conference Director",
-        "url": "https://www.hauscr.org/ctb"
-      },
-      {
-        "description": "organized the largest student-run women in tech conference with 900+ attendees",
-        "linkText": "Harvard WECode / WiCS",
-        "role": "Director of Marketing and Strategy",
-        "url": "http://harvardwecode.com"
-      },
-      {
-        "description": "bought goats and chickens into the engineering building for 600+ hackers",
-        "linkText": "HackHarvard",
-        "role": "Hacker Experience Director",
-        "url": "https://hackharvard.io/"
-      },
-      {
-        "description": "consulted for a Fortune 500 communications company on an AI-powered video calling platform",
-        "linkText": "HCS Product Lab",
-        "role": "Associate Product Manager",
-        "url": "https://www.hcsproductlab.org/"
-      },
-      {
-        "description": "created weird looking spidermans to research stable diffusion for ai comic book generation",
-        "linkText": "HUMIC",
-        "role": "Project Team Member",
-        "url": "https://www.harvardai.org/"
-      },
-      {
-        "description": "staff moosicals cuz no stamina to play cast",
-        "linkText": "HRDC",
-        "role": "Prev. Shows: Footloose (Hair & Makeup, Videography), Julius Caesar (Videography)",
-        "url": "https://hrdctheater.org/"
-      },
-      {
-        "description": "complained about the patent litigation system",
-        "linkText": "HULR",
-        "role": "Staff Writer",
-        "url": "https://hulr.org/"
-      },
-      {
-        "description": "taught healthy recipes at a youth center in cambridge",
-        "linkText": "Harvard Food Lab",
-        "role": "Volunteer Instructor",
-        "url": "https://thefoodlabharvard.wixsite.com/home"
-      }
-    ],
-    "courses": [
+  "clubs": [
+    {
+      "description": "organize a research and innovation conference for 10k+ high schoolers in China",
+      "linkText": "HAUSCR",
+      "role": "China Thinks Big Conference Director",
+      "url": "https://www.hauscr.org/ctb"
+    },
+    {
+      "description": "organized the largest student-run women in tech conference with 900+ attendees",
+      "linkText": "Harvard WECode / WiCS",
+      "role": "Director of Marketing and Strategy",
+      "url": "http://harvardwecode.com"
+    },
+    {
+      "description": "bought goats and chickens into the engineering building for 600+ hackers",
+      "linkText": "HackHarvard",
+      "role": "Hacker Experience Director",
+      "url": "https://hackharvard.io/"
+    },
+    {
+      "description": "consulted for a Fortune 500 communications company on an AI-powered video calling platform",
+      "linkText": "HCS Product Lab",
+      "role": "Associate Product Manager",
+      "url": "https://www.hcsproductlab.org/"
+    },
+    {
+      "description": "created weird looking spidermans to research stable diffusion for ai comic book generation",
+      "linkText": "HUMIC",
+      "role": "Project Team Member",
+      "url": "https://www.harvardai.org/"
+    },
+    {
+      "description": "staff moosicals cuz no stamina to play cast",
+      "linkText": "HRDC",
+      "role": "Prev. Shows: Footloose (Hair & Makeup, Videography), Julius Caesar (Videography)",
+      "url": "https://hrdctheater.org/"
+    },
+    {
+      "description": "complained about the patent litigation system",
+      "linkText": "HULR",
+      "role": "Staff Writer",
+      "url": "https://hulr.org/"
+    },
+    {
+      "description": "taught healthy recipes at a youth center in cambridge",
+      "linkText": "Harvard Food Lab",
+      "role": "Volunteer Instructor",
+      "url": "https://thefoodlabharvard.wixsite.com/home"
+    }
+  ],
+  "courses": [
+    {
+      "term": "spring 2024",
+      "classes": [
         {
-          "term": "spring 2024",
-          "classes": [
-            {
-              "name":"CS 226R* - Topics in Theory for Society: The Theory of Algorithmic Fairness"
-            },
-            {
-              "name":"CS 175 - Computer Graphics"
-            },
-            {
-              "name":"COMPLIT 200* - Computing Fantasy: Imagination, Invention, Radical Pedagogy (Munari / Rodari / Calvino)"
-            },
-            {
-              "name":"AFVS 97 - Sophomore Tutorial"
-            }
-          ]
+          "name": "CS 226R* - Topics in Theory for Society: The Theory of Algorithmic Fairness"
         },
-      {
-        "term": "fall 2023",
-        "classes": [
-          {
-            "name":"STAT 110 - Probability",
-            "resource": "../resources/stat110_final_review.pdf"
-          },
-          {
-            "name":"ENG-SCI 139 - Innovation in Science and Engineering"
-          },
-          {
-            "name":"GENED 1006 - Music From Earth"
-          },
-          {
-            "name":"SLAVIC 191 - Silent Film"
-          }
-        ]
-      },
-      {
-        "term": "summer 2023",
-        "classes": [
-          {
-            "name":"VISU S-14 - Drawing and the Digital Age"
-          }
-        ]
-      },
-      {
-        "term": "spring 2023",
-        "classes": [
-          {
-            "name":"CS 124 - Data Structures and Algorithms",
-            "resource": "../resources/cs124_final_review.pdf"
-          },
-          {
-            "name":"ECON 10B - Principles of Economics (Macroeconomics)",
-            "resource": "../resources/ec10_final_midterm_review.pdf"
-          },
-          {
-            "name":"GENED 1115 - Human Trafficking, Slavery, and Abolition in the Modern World"
-          },
-          {
-            "name":"EXPOS 20 - Expository Writing: Wastelands"
-          }
-        ]
-      },
-      {
-        "term": "fall 2022",
-        "classes": [
-          {
-            "name":"MATH 22A - Linear Algebra and Vector Calculus"
-          },
-          {
-            "name":"CS 50 - Introduction to Computer Science"
-          },
-          {
-            "name":"GENED 1038 - Science of Sleep"
-          },
-          {
-            "name":"AFVS 12 - Drawing 1: Drawing as a Visual Language"
-          }
-        ]
-      }
-    ]
+        {
+          "name": "CS 175 - Computer Graphics"
+        },
+        {
+          "name": "COMPLIT 200* - Computing Fantasy: Imagination, Invention, Radical Pedagogy (Munari / Rodari / Calvino)"
+        },
+        {
+          "name": "AFVS 97 - Sophomore Tutorial"
+        }
+      ]
+    },
+    {
+      "term": "fall 2023",
+      "classes": [
+        {
+          "name": "STAT 110 - Probability",
+          "resource": "../resources/stat110_final_review.pdf"
+        },
+        {
+          "name": "ENG-SCI 139 - Innovation in Science and Engineering"
+        },
+        {
+          "name": "GENED 1006 - Music From Earth"
+        },
+        {
+          "name": "SLAVIC 191 - Silent Film"
+        }
+      ]
+    },
+    {
+      "term": "summer 2023",
+      "classes": [
+        {
+          "name": "VISU S-14 - Drawing and the Digital Age"
+        }
+      ]
+    },
+    {
+      "term": "spring 2023",
+      "classes": [
+        {
+          "name": "CS 124 - Data Structures and Algorithms",
+          "resource": "../resources/cs124_final_review.pdf"
+        },
+        {
+          "name": "ECON 10B - Principles of Economics (Macroeconomics)",
+          "resource": "../resources/ec10_final_midterm_review.pdf"
+        },
+        {
+          "name": "GENED 1115 - Human Trafficking, Slavery, and Abolition in the Modern World"
+        },
+        {
+          "name": "EXPOS 20 - Expository Writing: Wastelands"
+        }
+      ]
+    },
+    {
+      "term": "fall 2022",
+      "classes": [
+        {
+          "name": "MATH 22A - Linear Algebra and Vector Calculus"
+        },
+        {
+          "name": "CS 50 - Introduction to Computer Science"
+        },
+        {
+          "name": "GENED 1038 - Science of Sleep"
+        },
+        {
+          "name": "AFVS 12 - Drawing 1: Drawing as a Visual Language"
+        }
+      ]
+    }
+  ]
 }
-  

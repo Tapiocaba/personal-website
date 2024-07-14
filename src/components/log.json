@@ -1,78 +1,95 @@
 {
-    "log": [
+  "log": [
+    {
+      "year": 2024,
+      "month": "Apr/May",
+      "items": [
+        { "text": "moved to sunnyvale during a heat stroke" },
+        { "text": "started interning at apple" },
+        { "text": "finished a finals-free semester!" }
+      ]
+    },
+    {
+      "year": 2024,
+      "month": "Feb / Mar",
+      "items": [
+        { "text": "stuffed a pillow at treehacks" },
+        { "text": "almost died of dehydration on an atv in colombia" },
+        { "text": "ate at an eating club @ hackprinceton" },
+        { "text": "made a wooden vinyl crate" }
+      ]
+    },
+    {
+      "year": 2024,
+      "month": "Jan",
+      "items": [
         {
-            "year": 2024,
-            "month": "Feb / Mar",
-            "items": [
-                { "text": "stuffed a pillow at treehacks" },
-                {"text": "almost died of dehydration on an atv in colombia"},
-                {"text": "ate at an eating club @ hackprinceton"},
-                {"text": "made a wooden vinyl crate"}
-            ]
+          "text": "went barrelling down a mountain and fell onto a ski pole (haha pole dancing isn't helping you now is it lisa)"
         },
         {
-            "year": 2024,
-            "month": "Jan",
-            "items": [
-                { "text": "went barrelling down a mountain and fell onto a ski pole (haha pole dancing isn't helping you now is it lisa)" },
-                { "text": "cried to joe hisaishi playing howls moving castle and princess mononoke" },
-                { "text": "watched jjk szn 2 in one night and finished suits in 2 months" },
-                { "text": "found out skiing actually helped me learn how to ice skate" }
-            ]
+          "text": "cried to joe hisaishi playing howls moving castle and princess mononoke"
         },
         {
-            "year": 2023,
-            "month": "Sept/Oct",
-            "items": [
-                { "text": "started sophomore year >->" },
-                { "text": "went to tapia (haha tapi[oc]a[ba])" },
-                { "text": "sailed around the bermuda triangle with a bulldog" }
-            ]
+          "text": "watched jjk szn 2 in one night and finished suits in 2 months"
         },
+        { "text": "found out skiing actually helped me learn how to ice skate" }
+      ]
+    },
+    {
+      "year": 2023,
+      "month": "Sept/Oct",
+      "items": [
+        { "text": "started sophomore year >->" },
+        { "text": "went to tapia (haha tapi[oc]a[ba])" },
+        { "text": "sailed around the bermuda triangle with a bulldog" }
+      ]
+    },
+    {
+      "year": 2023,
+      "month": "Jul/Aug",
+      "items": [
+        { "text": "taught kids how to play competitive pokemon" },
+        { "text": "took sick hanfu photos in china" },
+        { "text": "ate a scorpion in thailand" },
         {
-            "year": 2023,
-            "month": "Jul/Aug",
-            "items": [
-                { "text": "taught kids how to play competitive pokemon" },
-                { "text": "took sick hanfu photos in china" },
-                { "text": "ate a scorpion in thailand" },
-                { "text": "walked 2 hours on 3% battery from a japanese garden to the golden gate bridge" }
-            ]            
-        },
-        {
-            "year": 2023,
-            "month": "May",
-            "items" : [
-                { "text": "ate omakase for the first time" },
-                { "text": "purple hair era in nyc" },
-                { "text": "started internship at axle" }
-            ]
-        },
-        {
-            "year": 2023,
-            "month": "Mar/Apr",
-            "items": [
-                { "text": "built a personal website" },
-                { "text": "had the best fried chicken in the u.s. in new orleans" },
-                { "text": "learned how to letter press" },
-                { "text": "ran a research conference for high schoolers in china" }
-            ]
-        },
-        {
-            "year": 2022,
-            "month": "Aug/Sept",
-            "items": [
-                { "text": "started studying @ harvard" },
-                { "text": "convinced boss to hire me @ harv admissions" },
-                { "text": "slept in the rain on a mountain in the new hampshire (fop best pre-o)" }
-            ]
-        },
-        {
-            "year": 2022,
-            "month": "May",
-            "items": [
-                { "text": "graduated high school! (∗ ᵒ̶̶̷̀ω˂̶́∗)੭₎₎̊₊♡" }
-            ]
+          "text": "walked 2 hours on 3% battery from a japanese garden to the golden gate bridge"
         }
-    ]
+      ]
+    },
+    {
+      "year": 2023,
+      "month": "May",
+      "items": [
+        { "text": "ate omakase for the first time" },
+        { "text": "purple hair era in nyc" },
+        { "text": "started internship at axle" }
+      ]
+    },
+    {
+      "year": 2023,
+      "month": "Mar/Apr",
+      "items": [
+        { "text": "built a personal website" },
+        { "text": "had the best fried chicken in the u.s. in new orleans" },
+        { "text": "learned how to letter press" },
+        { "text": "ran a research conference for high schoolers in china" }
+      ]
+    },
+    {
+      "year": 2022,
+      "month": "Aug/Sept",
+      "items": [
+        { "text": "started studying @ harvard" },
+        { "text": "convinced boss to hire me @ harv admissions" },
+        {
+          "text": "slept in the rain on a mountain in the new hampshire (fop best pre-o)"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "month": "May",
+      "items": [{ "text": "graduated high school! (∗ ᵒ̶̶̷̀ω˂̶́∗)੭₎₎̊₊♡" }]
+    }
+  ]
 }

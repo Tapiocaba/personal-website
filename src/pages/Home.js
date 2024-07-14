@@ -14,21 +14,19 @@ const study = [
 const interest = [
   "reading supreme court cases 📚",
   "making spotify playlists at every minor inconvenience 🎶",
-  "critiquing restaurants 🍣",
+  "sitting in kinokuniya to read design magazines 🖌️",
+  "making homemade better-versions of restaurant food 🍣",
   "asking my boss questions about my love life 🤔",
   "making cheat sheets in figma 📝",
   "sewing questionable quality cosplay outfits 🧵",
-  "about to physicaly fight the harvard economics department 🥊",
+  "making tables 🪚",
   "listening to soft pop (tehe laufey and beabadoobee) 🎶",
-  "psychoanalyzing my friends' mbtis 🧠",
   "looking up questionable pinterest art for my dnd characters 🐺",
   "climbing purple rocks 🧗‍♀️",
-  "reading ali hazelwood books 🥰",
   "writing fanfiction 📝 (wait what)",
-  "waking up at 8am to get laufey tickets 🎫",
   "attending comedy shows 🎭",
   "going to art museums 🖼️",
-  "late night league sessions with dnd group 🐉"
+  "celebrating my 200th hour anniversary on baldur's gate 🧚‍♀️",
 ]
 
 function useWordCycle(words) {
