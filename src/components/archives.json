@@ -19,6 +19,12 @@
       "url": "https://hackharvard.io/"
     },
     {
+      "description": "create and manage content for exchange conference program",
+      "linkText": "HCAP",
+      "role": "Public Relations; Seoul Delegation",
+      "url": "https://www.hcapconference.org/"
+    },
+    {
       "description": "consulted for a Fortune 500 communications company on an AI-powered video calling platform",
       "linkText": "HCS Product Lab",
       "role": "Associate Product Manager",
@@ -33,7 +39,7 @@
     {
       "description": "staff moosicals cuz no stamina to play cast",
       "linkText": "HRDC",
-      "role": "Prev. Shows: Footloose (Hair & Makeup, Videography), Julius Caesar (Videography)",
+      "role": "Prev. Shows: Footloose (Hair & Makeup, Videography), Julius Caesar (Videography), AIDA (Hair & Makeup)",
       "url": "https://hrdctheater.org/"
     },
     {
@@ -50,6 +56,26 @@
     }
   ],
   "courses": [
+    {
+      "term": "fall 2024",
+      "classes": [
+        {
+          "name": "CS 2822R* - Topics in Machine Learning: Computational Properties in Interpretable Machine Learning"
+        },
+        {
+          "name": "CS 1200 - Introduction to Algorithms and their Limitations (no because why did they change this to 4 numbers)"
+        },
+        {
+          "name": "AFVS 222* - AI and Art"
+        },
+        {
+          "name": "AFVS 102 - Writing Near Art or Art Near Writing"
+        },
+        {
+          "name": "AFVS 40S - Introduction to Photography"
+        }
+      ]
+    },
     {
       "term": "spring 2024",
       "classes": [

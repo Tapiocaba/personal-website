@@ -48,8 +48,8 @@ function About() {
       <SmallBreak />
       <Text>
         i'm lisa, born and raised in a pseudorandom combination of fuzhou, new
-        york city, and dallas. i learned how to code while trying to make wings
-        of fire and percy jackson fanart in{" "}
+        york city, and dallas, and i learned how to code while trying to make
+        wings of fire and percy jackson fanart in{" "}
         <RedLink href={"https://scratch.mit.edu/"}>scratch</RedLink>, and i
         learned both programming and video editing to showcase my digital
         creations.
@@ -75,14 +75,10 @@ function About() {
       <SmallBreak />
 
       <Text>
-        a sophomore at{" "}
+        a junior at{" "}
         <RedLink href="https://www.harvard.edu/">harvard university</RedLink>
         , studying a double concentration in computer science and art, film, and
         visual studies
-        <SmallBreak />
-        interning at{" "}
-        <RedLink href="https://www.apple.com/careers/us/">apple </RedLink>
-        on the cloud services engineering team
         <SmallBreak />
         interested in infrastruture, art, and education
         <SmallBreak />

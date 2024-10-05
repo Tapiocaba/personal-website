@@ -30,16 +30,24 @@ const uniItems = [
     ],
   },
   {
-    strikethrough: "taught competitive pokémon to kids",
+    strikethrough: "am consistently 5 min late to board meetings",
+    text: "coordinate m&s for women in tech (",
+    link: "https://www.wecodeconference.com/",
+    linkText: "Harvard WECode",
+    textAfter: ")",
+  },
+  {
+    strikethrough: "made financially responsible camera purchase decisions",
     text: "plan international conferences (",
-    link: "https://www.hauscr.org/",
-    linkText: "HAUSCR",
+    link: "https://www.hcapconference.org/",
+    linkText: "HCAP",
     textAfter: ")",
   },
   {
     strikethrough: "was accepted into harvard law (jk unless)",
     text: "drink boba with lawyers (",
-    link: "/",
+    link:
+      "https://www.linkedin.com/company/harvard-asian-american-law-association/",
     linkText: "HAALA",
     textAfter: ")",
   },
@@ -53,6 +61,12 @@ const uniItems = [
 ];
 
 const prevItems = [
+  {
+    text: "worked in cloud services engineering on kubernetes (",
+    link: "https://www.apple.com/careers/us/",
+    linkText: "Apple",
+    textAfter: ")",
+  },
   {
     text: "managed and helped create mentorship opportunities for students (",
     link: "https://bobatalks.com/",

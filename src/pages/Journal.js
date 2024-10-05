@@ -3,7 +3,12 @@ import { Box } from "@mui/system";
 
 import MonthList from "../components/MonthList";
 import data from "../components/log.json";
-import { PageTitle, Text, LargeBreak } from "../components/PageStyles";
+import {
+  PageTitle,
+  Text,
+  LargeBreak,
+  InternalLink,
+} from "../components/PageStyles";
 
 function Journal() {
   useEffect(() => {
@@ -22,6 +27,10 @@ function Journal() {
     <Box className="normalPage" sx={{ margin: "1em" }}>
       <PageTitle id="journal-heading">journal</PageTitle>
       <Text>Random life milestones and adventures ღゝ◡╹ )ノ♡</Text>
+      <Text>
+        (hopefully very) comphrensive{" "}
+        <InternalLink to="/archive">archive</InternalLink>{" "}
+      </Text>
       <Text>ₓ˚. ୭ ˚○◦˚.˚◦○˚ ୧ .˚ₓ</Text>
       <LargeBreak />
 
