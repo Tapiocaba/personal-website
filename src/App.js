@@ -23,6 +23,91 @@ const tagManagerArgs = {
 TagManager.initialize(tagManagerArgs);
 
 const theme = createTheme({
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        ":root": {
+          "--background": "#FFEEE2",
+          "--pink-normal": "#D56E61",
+          "--pink-hover": "#efc7c2",
+          "--green-hover": "#bfd3c1",
+          "--green-normal": "#8CB190",
+          "--text-color": "#4c4852",
+        },
+        html: {
+          overflowY: "scroll",
+          overflowX: "hidden",
+          backgroundColor: "var(--background)",
+        },
+        body: {
+          backgroundColor: "var(--background)",
+          color: "var(--text-color)",
+          fontFamily: "'IBM Plex Mono'",
+          fontWeight: 400,
+          msOverflowStyle: "scroll",
+          overflowY: "scroll",
+          "&::-webkit-scrollbar": {
+            width: "5px",
+          },
+          "&::-webkit-scrollbar-track": {
+            backgroundColor: "#FFEEE2",
+          },
+          "&::-webkit-scrollbar-thumb": {
+            backgroundColor: "#bfd3c1",
+            borderRadius: "20px",
+          },
+          "&::-webkit-scrollbar-thumb:hover": {
+            backgroundColor: "#8CB190",
+          },
+        },
+        "a.import": {
+          color: "var(--pink-normal)",
+          "&:hover": {
+            color: "var(--pink-hover)",
+          },
+        },
+        "#outer": {
+          display: "flex",
+          flexGrow: 1,
+          flexDirection: "row",
+          minHeight: "calc(50vh/3)",
+          flexBasis: "calc(100%/3)",
+          alignItems: "center",
+        },
+        "#nav-bar": {
+          color: "var(--pink-normal)",
+          textAlign: "right",
+          paddingTop: "20%",
+          paddingLeft: "30%",
+          position: "fixed",
+          top: 0,
+          left: 0,
+          fontSize: "18px",
+        },
+        "#content": {
+          marginLeft: "40%",
+          paddingTop: "80px",
+          paddingRight: "30%",
+          fontSize: "16px",
+        },
+        ".homePage": {
+          marginTop: "20%",
+        },
+      },
+    },
+    MuiLink: {
+      styleOverrides: {
+        root: {
+          color: "var(--green-normal)",
+          textDecoration: "none",
+          "&:hover": {
+            color: "var(--green-hover)",
+            cursor: "pointer",
+          },
+        },
+      },
+    },
+  },
   palette: {
     background: {
       default: "#FFEEE2",
@@ -35,40 +120,6 @@ const theme = createTheme({
     fontFamily: "'IBM Plex Mono'",
     fontWeight: 400,
     fontSize: 18,
-  },
-  components: {
-    MuiCssBaseline: {
-      styleOverrides: {
-        body: {
-          overflowY: "scroll",
-          "&::-webkit-scrollbar": {
-            width: "5px",
-          },
-          "&::-webkit-scrollbar-track": {
-            backgroundColor: "#FFEEE2",
-          },
-          "&::-webkit-scrollbar-thumb": {
-            backgroundColor: "#bfd3c1", // a lighter color
-            borderRadius: "20px",
-          },
-          "&::-webkit-scrollbar-thumb:hover": {
-            backgroundColor: "#8CB190", // change color on hover
-          },
-        },
-      },
-    },
-    MuiLink: {
-      styleOverrides: {
-        root: {
-          color: "#8CB190",
-          textDecoration: "none",
-          "&:hover": {
-            color: "#bfd3c1",
-            cursor: "pointer",
-          },
-        },
-      },
-    },
   },
 });
 
