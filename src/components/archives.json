@@ -57,6 +57,26 @@
   ],
   "courses": [
     {
+      "term": "spring 2025",
+      "classes": [
+        {
+          "name": "CS 2620* - Introduction to Distributed Computing"
+        },
+        {
+          "name": "CS 1910 - Classics of Computer Science"
+        },
+        {
+          "name": "CS 1060* - Software Engineering with Generative AI"
+        },
+        {
+          "name": "AFVS 196R - Directed Research"
+        },
+        {
+          "name": "TDM 119B - Voice, Text, and the Performer"
+        }
+      ]
+    },
+    {
       "term": "fall 2024",
       "classes": [
         {
