@@ -108,6 +108,9 @@ function Home() {
           drumkit (formerly axle)
         </RedLink>
         , and in research!
+        <SmallBreak /> this summer, i'll be at{" "}
+        <RedLink href={"https://www.notion.com/"}>notion</RedLink>, doing
+        application security!
       </Text>
 
       <Box
