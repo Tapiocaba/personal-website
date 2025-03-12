@@ -56,7 +56,7 @@ function Home() {
         padding: "1em",
       }}
     >
-      <PageTitle>welcome to tapi's cove!</PageTitle>
+      <PageTitle>test!</PageTitle>
 
       <br />
 
