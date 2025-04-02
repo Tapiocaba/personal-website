@@ -1,6 +1,11 @@
 {
   "log": [
     {
+      "year": 2025,
+      "month": "Jan",
+      "items": [{ "text": "went to japan!" }]
+    },
+    {
       "year": 2024,
       "month": "Apr/May",
       "items": [

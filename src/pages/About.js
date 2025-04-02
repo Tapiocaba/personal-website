@@ -76,9 +76,13 @@ function About() {
 
       <Text>
         a junior at{" "}
-        <RedLink href="https://www.harvard.edu/">harvard university</RedLink>
-        , studying a double concentration in computer science and art, film, and
-        visual studies and concurrent masters in computer science
+        <RedLink href="https://www.harvard.edu/">harvard university</RedLink>,
+        studying a double concentration in computer science and art, film, and
+        visual studies and{" "}
+        <RedLink href="https://seas.harvard.edu/computer-science/graduate-program/absm-information">
+          concurrent masters{" "}
+        </RedLink>{" "}
+        in computer science
         <SmallBreak />
         interested in infrastruture, art, and education
         <SmallBreak />
