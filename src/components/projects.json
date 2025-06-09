@@ -3,6 +3,22 @@
     {
       "list": [
         {
+          "name": "gRPC MCP System",
+          "description": "fault tolerant gRPC distributed system with LLM integration with to-do list, weather, and calendar data (CS 2620 Final Project, icon art by @vinylesque)",
+          "link": "https://github.com/CarlisleMa/cs2620-final-project-MCP",
+          "type": "python (gRPC, SQLite, Claude)",
+          "date": "may 2025",
+          "image": "images/projects/gRPC.png"
+        },
+        {
+          "name": "vanta",
+          "description": "testing large language models for alignment faking (WiCS x Anthropic Hackathon)",
+          "link": "https://github.com/anaiskillian/alignment_faking",
+          "type": "python (flask), react, LLM APIs (anthropic, openai, huggingface), docker",
+          "date": "may 2025",
+          "image": "images/projects/Vanta.png"
+        },
+        {
           "name": "voba",
           "description": "helping elementary schoolers learn vocab through create-your-own adventure stories (TreeHacks)",
           "link": "https://github.com/Tapiocaba/voba",
@@ -14,7 +30,7 @@
           "name": "looklab",
           "description": "creates visual simulation of potential plastic surgery results based on text input (ScaleAI Generative AI Hackathon)",
           "link": "https://docs.google.com/presentation/d/1ncYEBHUvivdFXlCVrvT1hyUIU0RTAzy0/preview?slide=id.p1",
-          "type": "react native, flask, tensorflow",
+          "type": "react native, python (flask, tensorflow)",
           "date": "july 2023",
           "image": "images/projects/LookLab.png"
         },

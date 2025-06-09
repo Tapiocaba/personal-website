@@ -31,11 +31,11 @@ function Resume() {
         >
           resume.lol
         </GreenLink>
-        ; updated 07/14/2024
+        ; updated 06/08/2025
       </Text>
 
       <iframe
-        src="https://drive.google.com/file/d/1EhShaKuce1QBCXiZZT1plBiD_gUoWPHK/preview"
+        src="https://drive.google.com/file/d/1FAF9wd7rOBie1HiMhzxBlOHCqXp6hka6/preview"
         width="640"
         height="825"
         allow="autoplay"

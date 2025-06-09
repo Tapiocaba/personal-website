@@ -55,11 +55,7 @@ export default function Archive() {
 
       <Text sx={{ fontWeight: "bold", fontSize: "1.5em" }}>courses</Text>
       <Text> * = graduate courses</Text>
-      <Text>
-        {" "}
-        notes courtesy of goodnotes, figma, and joe blitzstein; longer vers. of
-        124 notes coming after i fix my ipad
-      </Text>
+      <Text> notes courtesy of goodnotes, figma, and joe blitzstein;</Text>
       <SmallBreak />
 
       {archives.courses.map((term, index) => (

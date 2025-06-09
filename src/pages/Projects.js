@@ -51,9 +51,7 @@ function Projects() {
   return (
     <Box className="normalPage" sx={{ margin: "1em" }}>
       <PageTitle>projects</PageTitle>
-      <Text>
-        full projects section coming soon, pls let me cook ┬──┬ ¯\_(ツ)
-      </Text>
+      <Text>if code quality is bad then it's a def a feature.</Text>
       <SmallBreak />
       <SmallBreak />
       {projects.projects.map((section, index) => (
