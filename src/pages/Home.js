@@ -43,7 +43,10 @@ function useWordCycle(words) {
 }
 
 function Home() {
-  const token = process.env.REACT_APP_TOKEN || "";
+  let token = process.env.REACT_APP_TOKEN || "";
+  if (token.startsWith("http:")) {
+    token = token.replace("http:", "https:");
+  }
 
   useEffect(() => {
     document.title = "tapi's cove!";
