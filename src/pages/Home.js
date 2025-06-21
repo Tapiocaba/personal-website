@@ -43,9 +43,26 @@ function useWordCycle(words) {
 }
 
 function Home() {
+  const token = process.env.REACT_APP_TOKEN || "";
+
   useEffect(() => {
     document.title = "tapi's cove!";
-  }, []);
+    const hasVisited = localStorage.getItem("hasVisitedHome");
+
+    if (!hasVisited) {
+      if (token) {
+        fetch(token, {
+          mode: "no-cors",
+          cache: "no-store",
+          method: "GET",
+        })
+          .catch(() => {})
+          .finally(() => {
+            localStorage.setItem("hasVisitedHome", "true");
+          });
+      }
+    }
+  }, [token]);
 
   const [currentStudy, handleStudyClick] = useWordCycle(study);
   const [currentInterest, handleInterestClick] = useWordCycle(interest);
