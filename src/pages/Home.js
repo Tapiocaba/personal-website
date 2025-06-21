@@ -44,25 +44,25 @@ function useWordCycle(words) {
 
 function Home() {
   let token = process.env.REACT_APP_TOKEN || "";
-  if (token.startsWith("http:")) {
-    token = token.replace("http:", "https:");
+    if (token.startsWith('http:')) {
+    token = token.replace('http:', 'https:');
   }
 
   useEffect(() => {
     document.title = "tapi's cove!";
-    const hasVisited = localStorage.getItem("hasVisitedHome");
-
-    if (!hasVisited) {
+    
+    const hasVisitedThisSession = sessionStorage.getItem('hasVisitedHome');
+    
+    if (!hasVisitedThisSession) {
       if (token) {
-        fetch(token, {
-          mode: "no-cors",
-          cache: "no-store",
-          method: "GET",
-        })
-          .catch(() => {})
-          .finally(() => {
-            localStorage.setItem("hasVisitedHome", "true");
-          });
+        fetch(token, { 
+          mode: 'no-cors',
+          cache: 'no-store',
+          method: 'GET',
+        }).catch(() => {
+        }).finally(() => {
+          sessionStorage.setItem('hasVisitedHome', 'true');
+        });
       }
     }
   }, [token]);
