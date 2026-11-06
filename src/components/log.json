@@ -1,6 +1,19 @@
 {
   "log": [
     {
+      "year": 2026,
+      "month": "Sept",
+      "items": [{ "text": "started working at notion :)" }]
+    },
+    {
+      "year": 2026,
+      "month": "May",
+      "items": [
+        { "text": "graduated college with dat red hood!" },
+        { "text": "traveled to china, japan, and korea" }
+      ]
+    },
+    {
       "year": 2025,
       "month": "Jan",
       "items": [{ "text": "went to japan!" }]

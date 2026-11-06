@@ -18,7 +18,7 @@ export default function Archive() {
 
   return (
     <Box className="normalPage" sx={{ margin: "1em" }}>
-      <PageTitle>harvard archives</PageTitle>
+      <PageTitle>college archives</PageTitle>
       <LargeBreak />
 
       <Text sx={{ fontWeight: "bold", fontSize: "1.4em" }}>

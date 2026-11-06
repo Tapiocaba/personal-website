@@ -57,6 +57,40 @@
   ],
   "courses": [
     {
+      "term": "spring 2026",
+      "classes": [
+        {
+          "name": "AFVS 99B* - Senior Thesis"
+        },
+        {
+          "name": "CS 2710 - Topics in Data Visualization"
+        },
+        {
+          "name": "CS 2780 - Conceptualizing, Building, and Evaluation Usable Novel Interactive Systems"
+        },
+        {
+          "name": "OEB 130 - Biology of Fishes"
+        }
+      ]
+    },
+    {
+      "term": "fall 2025",
+      "classes": [
+        {
+          "name": "AFVS 99A* - Senior Thesis"
+        },
+        {
+          "name": "CS 2790R - Research Topics in Human-Computer Interaction"
+        },
+        {
+          "name": "CS 79 - Design of Useful and Usable Interactive Systems"
+        },
+        {
+          "name": "GENED 1052 - Race in a Polarized America"
+        }
+      ]
+    },
+    {
       "term": "spring 2025",
       "classes": [
         {

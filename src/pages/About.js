@@ -75,24 +75,14 @@ function About() {
       <SmallBreak />
 
       <Text>
-        a junior at{" "}
-        <RedLink href="https://www.harvard.edu/">harvard university</RedLink>,
-        studying a double concentration in computer science and art, film, and
-        visual studies and{" "}
-        <RedLink href="https://seas.harvard.edu/computer-science/graduate-program/absm-information">
-          concurrent masters{" "}
-        </RedLink>{" "}
-        in computer science
+        a software engineer at at{" "}
+        <RedLink href="https://www.notion.com/">notion</RedLink>, working on
+        application security
         <SmallBreak />
-        interested in infrastruture, art, and education
-        <SmallBreak />
-        not getting enough <InternalLink to="/archive">sleep</InternalLink>
+        and still not getting enough{" "}
+        <InternalLink to="/archive">sleep</InternalLink>
       </Text>
       <SmallBreak />
-      <Text>
-        <b>at uni, i</b>
-      </Text>
-      <PageList items={uniItems} />
       <Text>
         <b>previously, i've</b>
       </Text>

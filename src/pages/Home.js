@@ -4,11 +4,6 @@ import { Box, Link } from "@mui/material";
 
 import { PageTitle, RedLink, SmallBreak, Text } from "../components/PageStyles";
 
-const study = [
-  "art, film, and visual studies ✎ (❁ᴗ͈ˬᴗ͈) ༉‧ ♡*.✧",
-  "theater, dance, and media 🎬",
-];
-
 const interest = [
   "reading supreme court cases 📚",
   "making spotify playlists at every minor inconvenience 🎶",
@@ -26,11 +21,12 @@ const interest = [
   "going to art museums 🖼️",
   "celebrating my 200th hour anniversary on baldur's gate 🧚‍♀️",
   "rock moosic 🎸",
+  "pottery 🪴",
 ];
 
 function useWordCycle(words) {
   const [word, setCurrentWord] = useState(
-    words[Math.floor(Math.random() * words.length)]
+    words[Math.floor(Math.random() * words.length)],
   );
 
   const handleClick = () => {
@@ -44,30 +40,30 @@ function useWordCycle(words) {
 
 function Home() {
   let token = process.env.REACT_APP_TOKEN || "";
-    if (token.startsWith('http:')) {
-    token = token.replace('http:', 'https:');
+  if (token.startsWith("http:")) {
+    token = token.replace("http:", "https:");
   }
 
   useEffect(() => {
     document.title = "tapi's cove!";
-    
-    const hasVisitedThisSession = sessionStorage.getItem('hasVisitedHome');
-    
+
+    const hasVisitedThisSession = sessionStorage.getItem("hasVisitedHome");
+
     if (!hasVisitedThisSession) {
       if (token) {
-        fetch(token, { 
-          mode: 'no-cors',
-          cache: 'no-store',
-          method: 'GET',
-        }).catch(() => {
-        }).finally(() => {
-          sessionStorage.setItem('hasVisitedHome', 'true');
-        });
+        fetch(token, {
+          mode: "no-cors",
+          cache: "no-store",
+          method: "GET",
+        })
+          .catch(() => {})
+          .finally(() => {
+            sessionStorage.setItem("hasVisitedHome", "true");
+          });
       }
     }
   }, [token]);
 
-  const [currentStudy, handleStudyClick] = useWordCycle(study);
   const [currentInterest, handleInterestClick] = useWordCycle(interest);
 
   return (
@@ -82,21 +78,9 @@ function Home() {
 
       <Text>
         i'm lisa, but online, i go by tapi (short for tapiocaba)! i'm from a now
-        more-suburban suburb in dallas, but currently am based in cambridge, ma,
-        where i'm studying computer science and{" "}
-        <Box
-          component="span"
-          role="button"
-          onClick={handleStudyClick}
-          sx={{
-            color: "#8CB190",
-            cursor: "pointer",
-            "&:hover": { color: "#bfd3c1" },
-          }}
-        >
-          {currentStudy}
-        </Box>
-        .
+        more-suburban suburb in dallas, but currently am based in the great big
+        city of new york, where i'm securing notion on the application security
+        team!
         <Box
           sx={{
             lineHeight: "1em",
@@ -104,9 +88,8 @@ function Home() {
         >
           <br />
         </Box>
-        when i'm not dyeing my hair a new pastel color, i'm learning about
-        diversity and education in tech, beating up friends in pokemon showdown,
-        and{" "}
+        when i'm not dyeing my hair a new color, i'm learning about diversity
+        and education in tech, beating up friends in pokemon champions, and{" "}
         <Box
           component="span"
           role="button"
@@ -128,9 +111,7 @@ function Home() {
           drumkit (formerly axle)
         </RedLink>
         , and in research!
-        <SmallBreak /> this summer, i'll be at{" "}
-        <RedLink href={"https://www.notion.com/"}>notion</RedLink>, doing
-        application security!
+        <SmallBreak />
       </Text>
 
       <Box
@@ -140,14 +121,6 @@ function Home() {
       >
         <br />
       </Box>
-
-      <Text>
-        feel free to reach out to me at{" "}
-        <Link href="mailto:lisalin@college.harvard.edu">
-          lisalin@college.harvard.edu
-        </Link>
-        !
-      </Text>
     </Box>
   );
 }
