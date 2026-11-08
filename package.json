@@ -1,6 +1,9 @@
 {
   "name": "lisa-personal-website",
   "version": "0.1.0",
+  "engines": {
+    "node": "26.x"
+  },
   "homepage": "https://tapiocaba.github.io",
   "dependencies": {
     "@emotion/react": "^11.11.1",
