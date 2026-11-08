@@ -11,7 +11,7 @@ import {
   RedLink,
   InternalLink,
 } from "../components/PageStyles";
-import { uniItems, prevItems } from "../components/AboutItems";
+import { prevItems } from "../components/AboutItems";
 
 function About() {
   useEffect(() => {

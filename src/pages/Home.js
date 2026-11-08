@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { Box, Link } from "@mui/material";
+import { Box } from "@mui/material";
 
 import { PageTitle, RedLink, SmallBreak, Text } from "../components/PageStyles";
 
